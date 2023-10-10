@@ -22,6 +22,6 @@ jobs:
       - name: Merge dev into branches
         run: |
           for branch in lea leo anais; do
-            git merge dev --no-edit
+            git merge origin/dev --no-edit
             git push origin $branch
           done
