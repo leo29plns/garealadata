@@ -1,0 +1,21 @@
+name: Merge Dev into Lea
+
+on:
+  pull_request_review:
+    types:
+      - approved
+
+jobs:
+  merge-dev-into-lea:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Merge dev into lea
+        run: |
+          git checkout lea
+          git merge dev
+          # Handle conflicts if any
+          git push origin lea
