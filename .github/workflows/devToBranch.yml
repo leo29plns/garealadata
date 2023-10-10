@@ -1,0 +1,28 @@
+name: Merge Dev into Branches
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request_review:
+    types:
+      - submitted
+
+jobs:
+  merge-dev-into-branches:
+    if: github.event.review.state == 'APPROVED'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+
+      - name: Merge dev into branches
+        run: |
+          for branch in lea leo anais; do
+            git checkout $branch
+            git merge dev --no-edit
+            git push origin $branch
+          done
