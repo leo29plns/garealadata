@@ -14,13 +14,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout code with full Git history
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Récupère tout l'historique Git
 
       - name: Merge dev into branches
         run: |
           for branch in lea leo anais; do
-            git checkout $branch
             git merge dev --no-edit
             git push origin $branch
           done
