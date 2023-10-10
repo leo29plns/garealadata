@@ -1,0 +1,41 @@
+name: Merge Dev into Branches
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request_review:
+    types:
+      - approved
+
+jobs:
+  merge-dev-into-branches:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Merge dev into lea
+        run: |
+          git checkout lea
+          git merge dev
+          # Handle conflicts if any
+          git push origin lea
+
+      - name: Merge dev into leo
+        run: |
+          git checkout leo
+          git merge dev
+          # Handle conflicts if any
+          git push origin leo
+
+      - name: Merge dev into anais
+        run: |
+          git checkout anais
+          git merge dev
+          # Handle conflicts if any
+          git push origin anais
+
+      # Repeat the same steps for other branches
+
