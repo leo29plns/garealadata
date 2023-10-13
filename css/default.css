@@ -40,15 +40,21 @@ body {
 }
 
 .global-wrapper {
-    max-width: 125rem;
-    margin: auto;
     position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 main {
+    height: 100%;
+    display: flex;
     background-color: rgb(var(--gray03));
-    max-width: 100%;
-    min-height: var(--vh);
+}
+
+main > div {
+    display: block;
+    width: 100vw;
 }
 
 h1, h2, h3 {
