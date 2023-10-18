@@ -36,19 +36,32 @@ body {
 	color: rgb(var(--dark));
     scroll-behavior: smooth;
     max-width: 100%;
-    overflow-y: scroll;
 }
 
 .global-wrapper {
-    max-width: 125rem;
-    margin: auto;
     position: relative;
+    height: 100vh;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.global-wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 main {
+    height: 100%;
+    display: flex;
     background-color: rgb(var(--gray03));
-    max-width: 100%;
-    min-height: var(--vh);
+}
+
+main > div {
+    flex-shrink: 0;
+    flex-basis: 100vw;
+    scroll-snap-align: center;
 }
 
 h1, h2, h3 {
