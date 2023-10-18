@@ -1,0 +1,8 @@
+.slide4 {
+    --slide-primary: 21, 71, 52;
+	--slide-secondary: 161, 214, 202;
+    --slide-tertiary: 0, 0, 0;
+
+    background-color: rgb(var(--slide-secondary));
+    color: rgb(var(--slide-primary));
+}

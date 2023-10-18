@@ -10,3 +10,7 @@
     background-color: transparent;
     border: none;
 }
+
+.slider-controls button img {
+    mix-blend-mode: color;
+}

@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
 
+    const header = document.querySelector('head');
     const slidesCount = 9;
     const slidesList = [];
 
@@ -9,14 +10,14 @@ window.addEventListener("DOMContentLoaded", function () {
     function loadSlideFile(slideName) {
         const slideEl = document.querySelector('.' + slideName);
 
-        fetch(`/slides/${slideName}.html`)
-          .then(response => response.text())
-          .then(data => {
-            slideEl.innerHTML = data;
-          })
-          .catch(error => {
-            console.error(`Can't load ${slideName} (${error})`);
-          });
+        fetch(`slides/${slideName}.html`)
+            .then(response => response.text())
+            .then(data => {
+                slideEl.innerHTML = data;
+            })
+            .catch(error => {
+                console.error(`Can't load ${slideName} (${error})`);
+            });
     }
 
     // DIVS' SLIDES CREATION
@@ -25,15 +26,20 @@ window.addEventListener("DOMContentLoaded", function () {
             const slideName = `slide${i}`;
             slidesList.push(slideName);
 
-            let slide = document.createElement('div');
+            const slide = document.createElement('div');
             slide.classList.add(slideName);
             slide.onScreenEnter(0.75);
             mainEl.appendChild(slide);
 
             loadSlideFile(slideName);
+
+            const css = document.createElement('link');
+            css.rel = 'stylesheet';
+            css.href = `css/slides/${slideName}.css`;
+            header.appendChild(css);
         }
     }
 
     createSlides();
-    
+
 });

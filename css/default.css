@@ -1,16 +1,8 @@
 :root {
 
     --white: 255, 255, 255;
-	--dark: 16, 20, 25;
-    --creme: 243, 248, 255;
-
-    --gray01: 229, 235, 245;
-    --gray02: 204, 212, 221;
-    --gray03: 252, 253, 255;
-
-	--blue01: 171, 202, 255;
-    --blue02: 154, 180, 252;
-    --blue03: 20, 43, 77;
+	--dark: 51, 42, 47;
+    --sncf: 124, 34, 112;
 
     --redState: 255, 80, 1;
     --greenState: 24, 195, 165;
@@ -23,7 +15,7 @@
     --cta: 87, 97, 197;
     --ctaComplementary: 230, 30, 78;
 
-	--themeColor: rgb(var(--creme));
+	--themeColor: rgb(var(--sncf));
 
     --responsivePadding: min(5rem, 5%);
 
@@ -31,7 +23,7 @@
 }
 
 body {
-    background-color: rgb(var(--gray03));
+    background-color: rgb(var(--white));
 	font-family: 'Avenir', sans-serif;
 	color: rgb(var(--dark));
     scroll-behavior: smooth;
@@ -351,7 +343,7 @@ p.pageTitle {
 }
 
 .map .map-popup {
-    background-color: rgba(var(--creme), .75);
+    background-color: rgba(var(--sncf), .75);
     padding: 1rem;
     border-radius: .5rem;
     border: 1px solid rgb(var(--gray01));
@@ -383,12 +375,12 @@ p.pageTitle {
 
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
     /* .map-marker {
-        background-color: rgba(var(--creme), .5);
+        background-color: rgba(var(--sncf), .5);
         -webkit-backdrop-filter: saturate(180%) blur(20px);
         backdrop-filter: saturate(180%) blur(5px);
     } */
     .map-popup {
-        background-color: rgba(var(--creme), .5);
+        background-color: rgba(var(--sncf), .5);
         -webkit-backdrop-filter: saturate(180%) blur(20px);
         backdrop-filter: saturate(180%) blur(5px);
     }
