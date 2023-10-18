@@ -1,0 +1,27 @@
+name: Merge Dev into Branches
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request_review:
+    types:
+      - submitted
+
+jobs:
+  merge-dev-into-branches:
+    if: github.event.review.state == 'APPROVED'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code with full Git history
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Récupère tout l'historique Git
+
+      - name: Merge dev into branches
+        run: |
+          for branch in lea leo anais; do
+            git merge origin/dev --no-edit
+            git push origin $branch
+          done
