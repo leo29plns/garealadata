@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function () {
 
-    const slidesCount = 8;
+    const slidesCount = 9;
     const slidesList = [];
 
     const mainEl = document.querySelector('.global-wrapper > main');
@@ -27,6 +27,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
             let slide = document.createElement('div');
             slide.classList.add(slideName);
+            slide.onScreenEnter(0.75);
             mainEl.appendChild(slide);
 
             loadSlideFile(slideName);

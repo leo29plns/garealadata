@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="fonts/avenir/fonts.css">
 
@@ -35,12 +36,24 @@
 <body>
 
     <div class="global-wrapper">
+
         <main></main>
+
+        <nav class="slider-controls">
+            <button data-scroll_next="false" type="button">
+                <img src="/img/arrow-left.svg" alt="Slide précédente">
+                <span class="sr-only">Slide précédente</span>
+            </button>
+            <button data-scroll_next="true" type="button">
+                <img src="/img/arrow-right.svg" alt="Slide suivante">
+                <span class="sr-only">Slide suivante</span>
+            </button>
+        </nav>
     </div>
 
-    <script src="js/slides.js" defer></script>
+    <script src="js/slidesScroll.js" defer></script>
+    <script src="js/loadSlides.js" defer></script>
     <script src="js/css.js" defer></script>
-    <script src="js/onScroll.js" defer></script>
 
 </body>
 </html>
