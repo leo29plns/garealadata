@@ -1,5 +1,5 @@
 // POUR IMPORTER LES DONNES DU JSON DANS JS OU UTILISER UN REQUIRE MAIS FONCTIONNAIT PAS 
-fetch("./reglarite-mensuelle-tgv-nationale.json")
+fetch("./regularite_mensuelle.json")
     .then(response => {
         return response.json()
     })
@@ -29,7 +29,7 @@ function creationchart(chartData) {
         }
 
     });
-
+    
 
 
 
@@ -50,7 +50,7 @@ function creationchart(chartData) {
         },
         options: {
 
-            maintainAspectRatio: false,
+            maintainAspectRatio: true,
             scales: {
                 y: {
                     stacked: true,
@@ -66,9 +66,22 @@ function creationchart(chartData) {
                 x: {
                     grid: {
                         display: true,
+                    },
+
+                    ticks: {
+                        autoSkip: false, //pour que mes labels ne disparaissent jamais
+                        maxTicksLimit:11,
+
+                      
+                        
+
                     }
                 }
             },
+
+    
+    
+
 
         }
     });
