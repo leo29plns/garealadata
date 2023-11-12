@@ -4,10 +4,11 @@ fetch("./regularite_mensuelle.json")
         return response.json()
     })
     .then(jsondata => {
-        creationchart(jsondata)
-        // le jsondata contient toutes les données de mon jsonet creation chart et la foncction du dessous qui va créer mon graphique
+        console.log(jsondata);
+        creationchart(jsondata['data'])
+        // le jsondata contient toutes les données de mon json et creation chart et la foncction du dessous qui va créer mon graphique
     })
-
+    
 function creationchart(chartData) {
     let chartValuesPonctuality = [];
     let chartValuesYears = [];
@@ -30,8 +31,6 @@ function creationchart(chartData) {
 
     });
     
-
-
 
 
     const graph = document.getElementById('graphique');
