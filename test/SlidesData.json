@@ -1,0 +1,52 @@
+{
+    "context": "List of slides, and attached-JSON data",
+    "slidesList": [
+        {
+            "id": "1",
+            "jsonFiles": []
+        },
+        {
+            "id": "2",
+            "jsonFiles": []
+        },
+        {
+            "id": "3",
+            "jsonFiles": [
+                "temps_parcours.json"
+            ]
+        },
+        {
+            "id": "4",
+            "jsonFiles": []
+        },
+        {
+            "id": "5",
+            "jsonFiles": [
+                "nombre_voyageurs.json",
+                "french_inhabitants_per_years.json"
+            ]
+        },
+        {
+            "id": "6",
+            "jsonFiles": []
+        },
+        {
+            "id": "7",
+            "jsonFiles": [
+                "regularite_mensuelle.json"
+            ]
+        },
+        {
+            "id": "8",
+            "jsonFiles": [
+                "opinion_2015_2017.json",
+                "opinion_2018_2021.json",
+                "opinion_2022_2023.json"
+            ]
+        },
+        {
+            "id": "9",
+            "jsonFiles": []
+        }
+    ]
+}

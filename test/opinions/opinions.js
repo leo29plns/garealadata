@@ -56,7 +56,6 @@ function moyenneParAnneeEtCategorie(groupedData) {
 
 
 
-
 // Usage
 const fileNames = [
     "./opinion_2015_2017.json",
@@ -69,5 +68,87 @@ fetchAndGroupFiles(fileNames);
 
 console.log(
     fetchAndGroupFiles(fileNames),
-    // moyenneParAnneeEtCategorie(patate)
+    groupByYearAndCategory(groupedData)
+    // moyenneParAnneeEtCategorie()
 );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function creationchart(chartData){
+//     // FAUDRA REUTILISER CETTE FONCTION
+//     moyenneParAnneeEtCategorie(chartData);
+// }
+
+
+
+// // MISE EN PAGE GRAPHIQUE
+// const graph = document.getElementById('graphique');
+
+// new Chart(graph, {
+//     type: 'bar',
+//     // C'ets dans data qu'il va falloir faire les modifs !
+//     data: {
+//         labels: chartValuesYears,
+//         datasets: [{
+//             data: chartValuesPonctuality,
+//             borderWidth: 1,
+//             backgroundColor: "#89DAFA",
+//             borderColor: "#0284DD",
+//             // fill: true,
+//         }]
+//     },
+//     options: {
+
+//         maintainAspectRatio: true,
+//         scales: {
+//             y: {
+//                 stacked: true,
+//                 suggestedMin: 75,
+//                 suggestedMax: 95,
+//                 grid: {
+//                     display: true,
+//                     color: "rgba(255,99,132,0.2)"
+//                 }
+//             },
+
+
+//             x: {
+//                 grid: {
+//                     display: true,
+//                 },
+
+//                 ticks: {
+//                     autoSkip: false, //pour que mes labels ne disparaissent jamais
+//                     maxTicksLimit:6,
+
+                  
+                    
+
+//                 }
+//             }
+//         },
+
+
+
+
+
+//     }
+// });
+
