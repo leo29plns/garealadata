@@ -1,0 +1,1 @@
+console.log(_globalData['slide4']);

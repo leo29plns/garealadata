@@ -1,0 +1,12 @@
+.slide3 {
+    --slide-primary: 0, 56, 101;
+	--slide-secondary: 164, 200, 225;
+    --slide-tertiary: 0, 0, 0;
+
+    background-color: rgb(var(--slide-secondary));
+    color: rgb(var(--slide-primary));
+}
+
+.slide3 .divider > div {
+    padding: var(--responsivePadding);
+}

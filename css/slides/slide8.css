@@ -1,0 +1,8 @@
+.slide8 {
+    --slide-primary: 0, 32, 91;
+	--slide-secondary: 199, 178, 222;
+    --slide-tertiary: 0, 0, 0;
+
+    background-color: rgb(var(--slide-secondary));
+    color: rgb(var(--slide-primary));
+}

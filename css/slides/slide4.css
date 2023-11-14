@@ -1,0 +1,20 @@
+.slide4 {
+    --slide-primary: 21, 71, 52;
+	--slide-secondary: 161, 214, 202;
+    --slide-tertiary: 0, 0, 0;
+
+    background-color: rgb(var(--white));
+    color: rgb(var(--slide-primary));
+}
+
+.slide4 .divider > div {
+    padding: var(--responsivePadding);
+}
+
+.slide4 .left-pane {
+    flex-basis: 65%;
+}
+
+.slide4 .right-pane {
+    flex-basis: 35%;
+}

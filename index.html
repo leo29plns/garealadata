@@ -7,11 +7,12 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="fonts/avenir/fonts.css">
 
-    <link rel="shortcut icon" href="public/img/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="public/img/apple-touch-icon.png">
 
     <meta name="author" content="Léa V. - Anaïs M. - Léo P.">
@@ -41,19 +42,21 @@
 
         <nav class="slider-controls">
             <button data-scroll_next="false" type="button">
-                <img src="/img/arrow-left.svg" alt="Slide précédente">
+                <img src="img/arrow.svg" alt="Slide précédente">
                 <span class="sr-only">Slide précédente</span>
             </button>
             <button data-scroll_next="true" type="button">
-                <img src="/img/arrow-right.svg" alt="Slide suivante">
+                <img src="img/arrow.svg" alt="Slide suivante">
                 <span class="sr-only">Slide suivante</span>
             </button>
         </nav>
     </div>
 
-    <script src="js/slidesScroll.js" defer></script>
-    <script src="js/loadSlides.js" defer></script>
-    <script src="js/css.js" defer></script>
+    <div class="_scripts">
+        <script src="js/slidesScroll.js" defer></script>
+        <script src="js/loadSlides.js" defer></script>
+        <script src="js/css.js" defer></script>
+    </div>
 
 </body>
 </html>

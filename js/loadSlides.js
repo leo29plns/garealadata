@@ -1,39 +1,75 @@
-window.addEventListener("DOMContentLoaded", function () {
+const _globalData = {};
 
-    const slidesCount = 9;
-    const slidesList = [];
+const $_scripts = document.querySelector('._scripts');
+const $head = document.querySelector('head');
+const $main = document.querySelector('.global-wrapper > main');
 
-    const mainEl = document.querySelector('.global-wrapper > main');
+// LOADING JSON DATA AND JS FILE
+function loadDataJsFile(id, jsonFiles) {
+    const slideJs = document.createElement('script');
+    slideJs.src = `js/slides/slide${id}.js`;
 
-    // LOADING OF SLIDE'S FILE
-    function loadSlideFile(slideName) {
-        const slideEl = document.querySelector('.' + slideName);
+    const slideData = {};
+    const promises = [];
 
-        fetch(`/slides/${slideName}.html`)
-          .then(response => response.text())
-          .then(data => {
+    jsonFiles.forEach(function (jsonFileName) {
+        const jsonFilePromise = fetch(`data/slide${id}/${jsonFileName}`)
+            .then(response => {
+                return response.text();
+            })
+            .then(jsonResponse => {
+                const parsedJsonResponse = JSON.parse(jsonResponse);
+                const jsonFile = parsedJsonResponse['data'];
+
+                slideData[jsonFileName] = jsonFile;
+            });
+
+        promises.push(jsonFilePromise);
+    });
+
+    Promise.all(promises).then(() => {
+        _globalData[`slide${id}`] = slideData;
+        $_scripts.appendChild(slideJs);
+    });
+}
+
+// LOADING SLIDE FILE
+function loadSlideFile(id) {
+    const slideName = `slide${id}`;
+    const slideEl = document.querySelector('.' + slideName);
+
+    fetch(`slides/${slideName}.html`)
+        .then(response => response.text())
+        .then(data => {
             slideEl.innerHTML = data;
-          })
-          .catch(error => {
-            console.error(`Can't load ${slideName} (${error})`);
-          });
-    }
+        });
+}
 
-    // DIVS' SLIDES CREATION
-    function createSlides() {
-        for (let i = 1; i <= slidesCount; i++) {
-            const slideName = `slide${i}`;
-            slidesList.push(slideName);
+// CREATION OF SLIDES DIVS
+function createSlides(id) {
+    const slideName = `slide${id}`;
 
-            let slide = document.createElement('div');
-            slide.classList.add(slideName);
-            slide.onScreenEnter(0.75);
-            mainEl.appendChild(slide);
+    const slide = document.createElement('div');
+    slide.classList.add(slideName);
+    slide.onScreenEnter(0.75);
+    $main.appendChild(slide);
 
-            loadSlideFile(slideName);
-        }
-    }
+    loadSlideFile(id);
 
-    createSlides();
-    
-});
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = `css/slides/${slideName}.css`;
+    $head.appendChild(css);
+}
+
+// GET SLIDES INFOS
+fetch('data/slides.json')
+    .then(response => response.json())
+    .then(parsedJsonResponse => {
+        const slidesList = parsedJsonResponse['data'];
+
+        slidesList.forEach(function (slide) {
+            createSlides(slide['id']);
+            loadDataJsFile(slide['id'], slide['jsonFiles']);
+        });
+    })
