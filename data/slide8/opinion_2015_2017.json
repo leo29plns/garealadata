@@ -1,0 +1,898 @@
+{
+    "source": "IPSOS",
+    "url": "https://data.sncf.com/explore/dataset/barometre-notes-dopinion-sncf",
+    "data": [
+        {
+            "date": "2014-04",
+            "indicateur": "prix",
+            "global": 4.0
+        },
+        {
+            "date": "2014-05",
+            "indicateur": "globale",
+            "global": 5.6
+        },
+        {
+            "date": "2014-05",
+            "indicateur": "ponctualite",
+            "global": 4.1
+        },
+        {
+            "date": "2014-07",
+            "indicateur": "globale",
+            "global": 4.9
+        },
+        {
+            "date": "2014-07",
+            "indicateur": "prix",
+            "global": 3.9
+        },
+        {
+            "date": "2014-08",
+            "indicateur": "innovation",
+            "global": 5.1
+        },
+        {
+            "date": "2014-10",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2014-10",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2014-12",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2015-01",
+            "indicateur": "prix",
+            "global": 4.0
+        },
+        {
+            "date": "2015-02",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2015-03",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2015-06",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2015-06",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2015-08",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2015-11",
+            "indicateur": "prix",
+            "global": 4.5
+        },
+        {
+            "date": "2015-12",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2015-12",
+            "indicateur": "prix",
+            "global": 4.4
+        },
+        {
+            "date": "2016-02",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2016-03",
+            "indicateur": "innovation",
+            "global": 5.1
+        },
+        {
+            "date": "2016-04",
+            "indicateur": "globale",
+            "global": 5.2
+        },
+        {
+            "date": "2016-05",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2016-06",
+            "indicateur": "ponctualite",
+            "global": 4.1
+        },
+        {
+            "date": "2016-06",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2016-07",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2016-08",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2016-09",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2016-10",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2016-11",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2016-11",
+            "indicateur": "ponctualite",
+            "global": 3.9
+        },
+        {
+            "date": "2017-02",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2017-04",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2017-04",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-05",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2017-06",
+            "indicateur": "globale",
+            "global": 5.5
+        },
+        {
+            "date": "2017-07",
+            "indicateur": "ponctualite",
+            "global": 3.9
+        },
+        {
+            "date": "2017-08",
+            "indicateur": "ponctualite",
+            "global": 3.6
+        },
+        {
+            "date": "2017-08",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2017-08",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-10",
+            "indicateur": "ponctualite",
+            "global": 4.0
+        },
+        {
+            "date": "2017-11",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2014-06",
+            "indicateur": "ponctualite",
+            "global": 3.6
+        },
+        {
+            "date": "2014-08",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2014-09",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2014-10",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2014-11",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2014-11",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2014-12",
+            "indicateur": "innovation",
+            "global": 4.8
+        },
+        {
+            "date": "2014-12",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2015-02",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2015-03",
+            "indicateur": "ponctualite",
+            "global": 3.9
+        },
+        {
+            "date": "2015-03",
+            "indicateur": "prix",
+            "global": 4.0
+        },
+        {
+            "date": "2015-07",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2015-08",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2015-10",
+            "indicateur": "ponctualite",
+            "global": 3.9
+        },
+        {
+            "date": "2016-01",
+            "indicateur": "innovation",
+            "global": 5.5
+        },
+        {
+            "date": "2016-02",
+            "indicateur": "globale",
+            "global": 5.5
+        },
+        {
+            "date": "2016-02",
+            "indicateur": "ponctualite",
+            "global": 4.1
+        },
+        {
+            "date": "2016-03",
+            "indicateur": "globale",
+            "global": 5.2
+        },
+        {
+            "date": "2016-03",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2016-04",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2016-06",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2016-07",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2016-09",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2016-09",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2016-12",
+            "indicateur": "globale",
+            "global": 5.2
+        },
+        {
+            "date": "2016-12",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2017-01",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2017-02",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-09",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2017-10",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-11",
+            "indicateur": "globale",
+            "global": 5.2
+        },
+        {
+            "date": "2017-11",
+            "indicateur": "ponctualite",
+            "global": 3.7
+        },
+        {
+            "date": "2014-05",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2014-06",
+            "indicateur": "prix",
+            "global": 4.0
+        },
+        {
+            "date": "2014-07",
+            "indicateur": "ponctualite",
+            "global": 3.5
+        },
+        {
+            "date": "2014-11",
+            "indicateur": "globale",
+            "global": 5.2
+        },
+        {
+            "date": "2014-12",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2015-01",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2015-02",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2015-05",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2015-05",
+            "indicateur": "prix",
+            "global": 4.4
+        },
+        {
+            "date": "2015-06",
+            "indicateur": "ponctualite",
+            "global": 3.9
+        },
+        {
+            "date": "2015-07",
+            "indicateur": "globale",
+            "global": 5.5
+        },
+        {
+            "date": "2015-08",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2015-09",
+            "indicateur": "globale",
+            "experience": null,
+            "global": null
+        },
+        {
+            "date": "2015-09",
+            "indicateur": "ponctualite",
+            "experience": null,
+            "global": null
+        },
+        {
+            "date": "2015-10",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2015-11",
+            "indicateur": "innovation",
+            "global": 5.7
+        },
+        {
+            "date": "2015-12",
+            "indicateur": "ponctualite",
+            "global": 4.1
+        },
+        {
+            "date": "2016-01",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2016-01",
+            "indicateur": "ponctualite",
+            "global": 4.2
+        },
+        {
+            "date": "2016-02",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2016-03",
+            "indicateur": "ponctualite",
+            "global": 4.0
+        },
+        {
+            "date": "2016-07",
+            "indicateur": "globale",
+            "global": 5.1
+        },
+        {
+            "date": "2016-07",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2016-08",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2016-08",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2016-10",
+            "indicateur": "innovation",
+            "global": 5.1
+        },
+        {
+            "date": "2016-12",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2016-12",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2017-04",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2017-06",
+            "indicateur": "prix",
+            "global": 4.4
+        },
+        {
+            "date": "2017-07",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2017-09",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2017-11",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2014-04",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2014-04",
+            "indicateur": "ponctualite",
+            "global": 3.7
+        },
+        {
+            "date": "2014-05",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2014-06",
+            "indicateur": "globale",
+            "global": 4.9
+        },
+        {
+            "date": "2014-06",
+            "indicateur": "innovation",
+            "global": 5.1
+        },
+        {
+            "date": "2014-07",
+            "indicateur": "innovation",
+            "global": 5.1
+        },
+        {
+            "date": "2014-08",
+            "indicateur": "ponctualite",
+            "global": 3.7
+        },
+        {
+            "date": "2014-09",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2014-09",
+            "indicateur": "ponctualite",
+            "global": 4.0
+        },
+        {
+            "date": "2014-09",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2015-04",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2015-05",
+            "indicateur": "ponctualite",
+            "global": 4.2
+        },
+        {
+            "date": "2015-05",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2015-06",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2015-07",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2015-08",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2015-10",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2015-11",
+            "indicateur": "ponctualite",
+            "global": 4.2
+        },
+        {
+            "date": "2015-12",
+            "indicateur": "innovation",
+            "global": 5.5
+        },
+        {
+            "date": "2016-01",
+            "indicateur": "prix",
+            "global": 4.4
+        },
+        {
+            "date": "2016-05",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2016-08",
+            "indicateur": "ponctualite",
+            "global": 3.9
+        },
+        {
+            "date": "2016-09",
+            "indicateur": "globale",
+            "global": 5.2
+        },
+        {
+            "date": "2016-10",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-01",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2017-01",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2017-01",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-02",
+            "indicateur": "ponctualite",
+            "global": 4.0
+        },
+        {
+            "date": "2017-03",
+            "indicateur": "innovation",
+            "global": 5.7
+        },
+        {
+            "date": "2017-03",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-05",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2017-06",
+            "indicateur": "innovation",
+            "global": 6.0
+        },
+        {
+            "date": "2017-08",
+            "indicateur": "globale",
+            "global": 5.1
+        },
+        {
+            "date": "2017-09",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2017-09",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2017-10",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2017-12",
+            "indicateur": "innovation",
+            "global": 4.8
+        },
+        {
+            "date": "2014-04",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2014-08",
+            "indicateur": "globale",
+            "global": 5.1
+        },
+        {
+            "date": "2014-10",
+            "indicateur": "ponctualite",
+            "global": 3.8
+        },
+        {
+            "date": "2014-11",
+            "indicateur": "prix",
+            "global": 4.0
+        },
+        {
+            "date": "2015-01",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2015-01",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2015-02",
+            "indicateur": "prix",
+            "global": 4.1
+        },
+        {
+            "date": "2015-03",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2015-04",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2015-04",
+            "indicateur": "ponctualite",
+            "global": 4.0
+        },
+        {
+            "date": "2015-04",
+            "indicateur": "prix",
+            "global": 4.0
+        },
+        {
+            "date": "2015-07",
+            "indicateur": "ponctualite",
+            "global": 4.1
+        },
+        {
+            "date": "2015-10",
+            "indicateur": "innovation",
+            "global": 5.4
+        },
+        {
+            "date": "2015-11",
+            "indicateur": "globale",
+            "global": 5.5
+        },
+        {
+            "date": "2016-04",
+            "indicateur": "ponctualite",
+            "global": 4.1
+        },
+        {
+            "date": "2016-04",
+            "indicateur": "innovation",
+            "global": 5.2
+        },
+        {
+            "date": "2016-05",
+            "indicateur": "globale",
+            "global": 5.2
+        },
+        {
+            "date": "2016-05",
+            "indicateur": "innovation",
+            "global": 5.1
+        },
+        {
+            "date": "2016-06",
+            "indicateur": "globale",
+            "global": 4.8
+        },
+        {
+            "date": "2016-10",
+            "indicateur": "globale",
+            "global": 5.1
+        },
+        {
+            "date": "2016-11",
+            "indicateur": "innovation",
+            "global": 5.3
+        },
+        {
+            "date": "2016-11",
+            "indicateur": "prix",
+            "global": 4.3
+        },
+        {
+            "date": "2017-02",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2017-03",
+            "indicateur": "globale",
+            "global": 5.4
+        },
+        {
+            "date": "2017-03",
+            "indicateur": "ponctualite",
+            "global": 3.9
+        },
+        {
+            "date": "2017-04",
+            "indicateur": "innovation",
+            "global": 5.5
+        },
+        {
+            "date": "2017-05",
+            "indicateur": "globale",
+            "global": 5.3
+        },
+        {
+            "date": "2017-05",
+            "indicateur": "ponctualite",
+            "global": 4.0
+        },
+        {
+            "date": "2017-06",
+            "indicateur": "ponctualite",
+            "global": 4.1
+        },
+        {
+            "date": "2017-07",
+            "indicateur": "innovation",
+            "global": 5.7
+        },
+        {
+            "date": "2017-07",
+            "indicateur": "prix",
+            "global": 4.2
+        },
+        {
+            "date": "2017-10",
+            "indicateur": "globale",
+            "global": 5.5
+        },
+        {
+            "date": "2017-12",
+            "indicateur": "globale",
+            "global": 4.8
+        },
+        {
+            "date": "2017-12",
+            "indicateur": "ponctualite",
+            "global": 3.3
+        },
+        {
+            "date": "2017-12",
+            "indicateur": "prix",
+            "global": 3.8
+        }
+    ]
+}

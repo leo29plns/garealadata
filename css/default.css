@@ -28,13 +28,15 @@ body {
 	color: rgb(var(--dark));
     scroll-behavior: smooth;
     max-width: 100%;
+
+    font-size: 75%;
 }
 
 .global-wrapper {
     position: relative;
     height: 100vh;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
 
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -47,13 +49,15 @@ body {
 main {
     height: 100%;
     display: flex;
+    flex-direction: column;
     background-color: rgb(var(--gray03));
 }
 
 main > div {
     flex-shrink: 0;
-    flex-basis: 100vw;
+    flex-basis: 100%;
     scroll-snap-align: center;
+    min-height: 100%;
 }
 
 h1, h2, h3 {
@@ -61,7 +65,8 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 3em;
+    margin-bottom: .25em;
 }
 
 h2 {
@@ -89,7 +94,8 @@ a {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.25;
+    font-size: 1.25em;
 }
 
 hr {
@@ -111,6 +117,10 @@ em {
 
 .capitalize {
     text-transform: capitalize;
+}
+
+.text-align-right {
+    text-align: right;
 }
 
 .btn-primary {
@@ -211,24 +221,6 @@ em {
     .btn-little:hover {
         background-color: rgba(var(--gray02), .5);
     }
-}
-
-.pageTitle {
-    padding: 0 var(--responsivePadding);
-}
-
-h1.pageTitle {
-    font-size: 2.5rem;
-    font-weight: 400;
-    margin-top: 6rem;
-    text-align: center;
-    font-weight: 600;
-}
-
-p.pageTitle {
-    margin-top: .25rem;
-    text-align: center;
-    font-size: 1.25rem;
 }
 
 .reveal {
@@ -410,5 +402,22 @@ p.pageTitle {
 @media screen and (min-width: 48rem) {
     h2 {
         font-size: 2.5rem;
+    }
+}
+
+
+@media screen and (min-width: 36rem) {
+    body {
+        font-size: 100%;
+    }
+
+    .global-wrapper {
+        scroll-snap-type: x mandatory;
+        overflow-x: initial;
+        overflow-y: hidden;
+    }
+    
+    main {
+        flex-direction: row;
     }
 }

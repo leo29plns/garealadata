@@ -6,3 +6,15 @@
     background-color: rgb(var(--slide-secondary));
     color: rgb(var(--slide-primary));
 }
+
+.slide5 .divider > div {
+    padding: var(--responsivePadding);
+}
+
+.slide5 .left-pane {
+    flex-basis: 65%;
+}
+
+.slide5 .right-pane {
+    flex-basis: 35%;
+}

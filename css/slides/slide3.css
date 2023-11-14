@@ -6,3 +6,7 @@
     background-color: rgb(var(--slide-secondary));
     color: rgb(var(--slide-primary));
 }
+
+.slide3 .divider > div {
+    padding: var(--responsivePadding);
+}
