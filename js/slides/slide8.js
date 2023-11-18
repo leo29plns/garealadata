@@ -1,18 +1,10 @@
-console.log(_globalData['slide8']);
-
-
+// VARIABLES CONTENANT CHACUNE UN JEU DE DONNES
 const data_opinion_2018 = _globalData['slide8']['opinion_2018_2021.json'];
-
 const data_opinion_2015 = _globalData['slide8']['opinion_2015_2017.json'];
-
 const data_opinion_2022 = _globalData['slide8']['opinion_2022_2023.json'];
-// console.log(data_opinion_2015);
-// console.log(data_opinion_2018);
-// console.log(data_opinion_2022);
 
+// VARIABLE GLOBALE INSERANT TOUTES LES DONNES DANS UN SEUL TABLEAU
 const opinion_global = data_opinion_2015.concat(data_opinion_2018,data_opinion_2022);
-console.log(opinion_global);
-
 
 // GROUP DATA BY YEAR AND CATEGORY
 function groupByYearAndCategory(objets) {
@@ -34,13 +26,11 @@ function groupByYearAndCategory(objets) {
 }
 const groupYearCategory = groupByYearAndCategory(opinion_global);
 
-
 // CALCUL MOYENNE DES NOTES
 function moyenneTableau(tableau) {
     const somme = tableau.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
     return somme / tableau.length;
 }
-
 
 // FONCTION QUI CALCUL LA NOTE MOYENNE POUR CHAQUE CATEGORIE DE CHAQUE ANNEE
 function moyenneParAnneeEtCategorie(groupedData) {
@@ -77,17 +67,16 @@ function moyenneParAnneeEtCategorie(groupedData) {
     return moyenneParAnneeEtCategorie;
 }
 
-
 const noteByCategorie = moyenneParAnneeEtCategorie(groupYearCategory);
-// console.log(noteByCategorie);
+// const noteByCategorie2018 = noteByCategorie['2018'];
 
-const noteByCategorie2018 = noteByCategorie['2018'];
-
+// TABLEAU AVEC ORDRE DE NOS CATEGORIES POSITIONNE SUR AXE DES X SUR GRAPHIQUE
+const categoriesOrderTest = ["ponctualite","prix","innovation","environnement","infos-voyageurs","globale"];
 
 
 // AFFICHER LE BON GRAPHIQUE QUAND ON CLIQUE SUR LE BOUTON
 const anneeBouton = document.querySelectorAll('.anneechoisie');
-let currentChart;
+let currentChart = creationchart(noteByCategorie['2018'],categoriesOrderTest);
 
 anneeBouton.forEach(function (annee) {
     annee.addEventListener('click', function () {
@@ -98,7 +87,7 @@ anneeBouton.forEach(function (annee) {
             if (currentChart) {
                 currentChart.destroy();
             }
-            currentChart = creationchart(noteByCategorie[anneeBtnSelected],categoriesOrder2018);
+            currentChart = creationchart(noteByCategorie[anneeBtnSelected],categoriesOrderTest);
         }
         else {
             console.error("Données non disponibles pour l'annee selectionnée")
@@ -106,32 +95,13 @@ anneeBouton.forEach(function (annee) {
     })
 })
 
-
-// FONCTION POUR AVOIR L'ORDRE DES CATEGORIES POUR LE GRAPHIQUE ET QUE CA RESTE LE MEME EN FONCTION DES ANNEES
-function getCategoriesOrderForYear(groupedData, targetYear) {
-    const categoriesOrder = [];
-
-    if (groupedData[targetYear]) {
-        for (const nomIndicateur in groupedData[targetYear]) {
-            categoriesOrder.push(nomIndicateur);
-        }
-    }
-
-    return categoriesOrder;
-}
-
-// UTILISATION FONCTION POUR CHOISIR ORDRE A PARTIR D'UNE ANNEE
-const categoriesOrder2018 = getCategoriesOrderForYear(groupYearCategory, '2018');
-// console.log(categoriesOrder2018);
-
-
 // CREATION DE MON GRAPHIQUE
-function creationchart(noteByCategorieYear, categoriesOrder) {
+function creationchart(noteByCategorieYear, categoriesOrderTest) {
     let chartValuesCategory = [];
     let chartValuesNotes = [];
 
     // UUTILISATION DE L'ORDRE SPECIFIE POUR LES LABELS
-    categoriesOrder.forEach(categoryName => {
+    categoriesOrderTest.forEach(categoryName => {
         const categoryData = noteByCategorieYear.find(el => el['categorie'] === categoryName);
 
         if (categoryData) {
@@ -157,6 +127,9 @@ function creationchart(noteByCategorieYear, categoriesOrder) {
                 }]
         },
         options: {
+            animation: {
+                duration: 0 // Désactive l'animation
+            },
             plugins: {
                 legend: {
                     display: false,
@@ -175,11 +148,25 @@ function creationchart(noteByCategorieYear, categoriesOrder) {
             },
             maintainAspectRatio: true,
             scales: {
+                x:{
+                    ticks:{
+                        color:"#00205B",
+                    },
+                    grid:{
+                        color:"#7C7BAC",
+                    },
+                },
+
                 y: {
                     stacked: true,
                     suggestedMin: 0,
                     suggestedMax: 10,
-
+                    ticks:{
+                        color:"#00205B",
+                    },
+                    grid:{
+                        color:"#7C7BAC",
+                    },
                 },
             },
             
@@ -200,5 +187,5 @@ function creationchart(noteByCategorieYear, categoriesOrder) {
     });
     return newChart;
 }
-// creationchart(noteByCategorie2018);
+
 

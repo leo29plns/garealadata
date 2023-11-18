@@ -62,8 +62,6 @@ fetch("./nombre_voyageurs.json")
 
 
             // CREATION DU GRAPHIQUE
-            
-
             const graph = document.getElementById('graphique');
 
             new Chart(graph, {
@@ -80,6 +78,11 @@ fetch("./nombre_voyageurs.json")
                 },
                 options: {
         
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                    },
                     maintainAspectRatio: true,
                     scales: {
                         y: {
