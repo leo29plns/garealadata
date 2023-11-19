@@ -1,6 +1,6 @@
 {
     "context": "List of slides, and attached-JSON data",
-    "data": [
+    "slidesList": [
         {
             "id": "1",
             "jsonFiles": []
@@ -12,15 +12,12 @@
         {
             "id": "3",
             "jsonFiles": [
-                "temps_parcours.json",
-                "logo_history.json"
+                "temps_parcours.json"
             ]
         },
         {
             "id": "4",
-            "jsonFiles": [
-                "rails_map.json"
-            ]
+            "jsonFiles": []
         },
         {
             "id": "5",
