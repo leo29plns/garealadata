@@ -13,11 +13,11 @@
     font-size: 0;
 }
 
-.slider-controls button img{
+.slider-controls button img {
     transition: all .25s ease;
 }
 
-.slider-controls button:first-of-type img{
+.slider-controls button:first-of-type img {
     rotate: 0deg;
 }
 

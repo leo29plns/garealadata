@@ -1,0 +1,41 @@
+{
+    "source": "Walid El tarche",
+    "url": "https://tp2019gmp1.wordpress.com/2019/04/02/lhistoire-de-la-sncf-a-travers-le-decryptage-de-ses-logos/",
+    "data": [
+        {
+            "logoUrl": "logo 1 SNFC",
+            "firstYear": 1939,
+            "lastYear": 1946
+        },
+        {
+            "logoUrl": "logo 2 carte france",
+            "firstYear": 1947,
+            "lastYear": 1958
+        },
+        {
+            "logoUrl": "logo 3 train orange",
+            "firstYear": 1959,
+            "lastYear": 1966
+        },
+        {
+            "logoUrl": "logo 4 rectangle noir avec deux arrondis",
+            "firstYear": 1967,
+            "lastYear": 1986
+        },
+        {
+            "logoUrl": "logo 5 bye le contour, bonjour le bleu",
+            "firstYear": 1967,
+            "lastYear": 1991
+        },
+        {
+            "logoUrl": "logo 6 du rouge en haut, du gris en bas",
+            "firstYear": 1992,
+            "lastYear": 2004
+        },
+        {
+            "logoUrl": "logo 7 du violet au rouge",
+            "firstYear": 2005,
+            "lastYear": 2023
+        }
+    ]
+}

@@ -58,6 +58,7 @@ main > div {
     flex-basis: 100%;
     scroll-snap-align: center;
     min-height: 100%;
+    cursor: grab;
 }
 
 h1, h2, h3 {

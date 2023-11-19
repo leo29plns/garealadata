@@ -1,75 +1,79 @@
 const _globalData = {};
 
-const $_scripts = document.querySelector('._scripts');
-const $head = document.querySelector('head');
-const $main = document.querySelector('.global-wrapper > main');
+window.addEventListener("DOMContentLoaded", function () {
 
-// LOADING JSON DATA AND JS FILE
-function loadDataJsFile(id, jsonFiles) {
-    const slideJs = document.createElement('script');
-    slideJs.src = `js/slides/slide${id}.js`;
+    const $_scripts = document.querySelector('._scripts');
+    const $head = document.querySelector('head');
+    const $main = document.querySelector('.global-wrapper > main');
 
-    const slideData = {};
-    const promises = [];
+    // LOADING JSON DATA AND JS FILE
+    function loadDataJsFile(id, jsonFiles) {
+        const slideJs = document.createElement('script');
+        slideJs.src = `js/slides/slide${id}.js`;
 
-    jsonFiles.forEach(function (jsonFileName) {
-        const jsonFilePromise = fetch(`data/slide${id}/${jsonFileName}`)
-            .then(response => {
-                return response.text();
-            })
-            .then(jsonResponse => {
-                const parsedJsonResponse = JSON.parse(jsonResponse);
-                const jsonFile = parsedJsonResponse['data'];
+        const slideData = {};
+        const promises = [];
 
-                slideData[jsonFileName] = jsonFile;
+        jsonFiles.forEach(function (jsonFileName) {
+            const jsonFilePromise = fetch(`data/slide${id}/${jsonFileName}`)
+                .then(response => {
+                    return response.text();
+                })
+                .then(jsonResponse => {
+                    const parsedJsonResponse = JSON.parse(jsonResponse);
+                    const jsonFile = parsedJsonResponse['data'];
+
+                    slideData[jsonFileName] = jsonFile;
+                });
+
+            promises.push(jsonFilePromise);
+        });
+
+        Promise.all(promises).then(() => {
+            _globalData[`slide${id}`] = slideData;
+            $_scripts.appendChild(slideJs);
+        });
+    }
+
+    // LOADING SLIDE FILE
+    function loadSlideFile(id) {
+        const slideName = `slide${id}`;
+        const slideEl = document.querySelector('.' + slideName);
+
+        fetch(`slides/${slideName}.html`)
+            .then(response => response.text())
+            .then(data => {
+                slideEl.innerHTML = data;
             });
+    }
 
-        promises.push(jsonFilePromise);
-    });
+    // CREATION OF SLIDES DIVS
+    function createSlides(id) {
+        const slideName = `slide${id}`;
 
-    Promise.all(promises).then(() => {
-        _globalData[`slide${id}`] = slideData;
-        $_scripts.appendChild(slideJs);
-    });
-}
+        const slide = document.createElement('div');
+        slide.classList.add(slideName);
+        slide.onScreenEnter(0.75);
+        $main.appendChild(slide);
 
-// LOADING SLIDE FILE
-function loadSlideFile(id) {
-    const slideName = `slide${id}`;
-    const slideEl = document.querySelector('.' + slideName);
+        loadSlideFile(id);
 
-    fetch(`slides/${slideName}.html`)
-        .then(response => response.text())
-        .then(data => {
-            slideEl.innerHTML = data;
+        const css = document.createElement('link');
+        css.rel = 'stylesheet';
+        css.href = `css/slides/${slideName}.css`;
+        $head.appendChild(css);
+    }
+
+    // GET SLIDES INFOS
+    fetch('data/slides.json')
+        .then(response => response.json())
+        .then(parsedJsonResponse => {
+            const slidesList = parsedJsonResponse['data'];
+
+            slidesList.forEach(function (slide) {
+                createSlides(slide['id']);
+                loadDataJsFile(slide['id'], slide['jsonFiles']);
+            });
         });
-}
 
-// CREATION OF SLIDES DIVS
-function createSlides(id) {
-    const slideName = `slide${id}`;
-
-    const slide = document.createElement('div');
-    slide.classList.add(slideName);
-    slide.onScreenEnter(0.75);
-    $main.appendChild(slide);
-
-    loadSlideFile(id);
-
-    const css = document.createElement('link');
-    css.rel = 'stylesheet';
-    css.href = `css/slides/${slideName}.css`;
-    $head.appendChild(css);
-}
-
-// GET SLIDES INFOS
-fetch('data/slides.json')
-    .then(response => response.json())
-    .then(parsedJsonResponse => {
-        const slidesList = parsedJsonResponse['data'];
-
-        slidesList.forEach(function (slide) {
-            createSlides(slide['id']);
-            loadDataJsFile(slide['id'], slide['jsonFiles']);
-        });
-    })
+});
