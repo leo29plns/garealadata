@@ -1,13 +1,21 @@
-// VARIABLE QUI CONTIENT MON JEU DE DONNEES
-const regularite_global = _globalData['slide7']['regularite_mensuelle.json'];
-
+// POUR IMPORTER LES DONNES DU JSON DANS JS OU UTILISER UN REQUIRE MAIS FONCTIONNAIT PAS 
+fetch("./regularite_mensuelle.json")
+    .then(response => {
+        return response.json()
+    })
+    .then(jsondata => {
+        console.log(jsondata);
+        creationchart(jsondata['data'])
+        // le jsondata contient toutes les données de mon json et creation chart et la foncction du dessous qui va créer mon graphique
+    })
+    
 function creationchart(chartData) {
     let chartValuesPonctuality = [];
     let chartValuesYears = [];
 
     let previousYear = null;
     chartData.forEach(el => {
-        chartValuesPonctuality.push(el['ponctualite_origine'].toFixed(2));
+        chartValuesPonctuality.push(el['ponctualite_origine']);
 
         // pour extraire l'année
         const date = new Date(el['date']);
@@ -25,7 +33,7 @@ function creationchart(chartData) {
     
 
 
-    const graph = document.getElementById('graphique_regularite');
+    const graph = document.getElementById('graphique');
 
     new Chart(graph, {
         type: 'line',
@@ -34,28 +42,12 @@ function creationchart(chartData) {
             datasets: [{
                 data: chartValuesPonctuality,
                 borderWidth: 1,
-                backgroundColor: "#651C32",
-                borderColor: "#651C32",
+                backgroundColor: "#89DAFA",
+                borderColor: "#0284DD",
                 // fill: true,
             }]
         },
         options: {
-            plugins: {
-                legend: {
-                    display: false,
-                },
-                tooltip:{
-                    enabled:true,
-                    callbacks: {
-                        label: function(context) {
-                            // Utilisez context pour accéder aux données de l'infobulle
-                            const value = context.parsed.y;
-    
-                            return  'ponctualité : ' + value + '%';
-                        }
-                    }
-                },
-            },
 
             maintainAspectRatio: true,
             scales: {
@@ -63,28 +55,21 @@ function creationchart(chartData) {
                     stacked: true,
                     suggestedMin: 75,
                     suggestedMax: 95,
-                    
                     grid: {
                         display: true,
-                        color: "#F2827F",
-                    },
-
-                    ticks:{
-                        color:"#651C32",
-                    },
+                        color: "rgba(255,99,132,0.2)"
+                    }
                 },
 
 
                 x: {
                     grid: {
                         display: true,
-                        color: "#F2827F",
                     },
 
                     ticks: {
                         autoSkip: false, //pour que mes labels ne disparaissent jamais
-                        maxTicksLimit:20,
-                        color:"#651C32",
+                        maxTicksLimit:11,
 
                       
                         
@@ -100,5 +85,3 @@ function creationchart(chartData) {
         }
     });
 }
-
-creationchart(regularite_global);
