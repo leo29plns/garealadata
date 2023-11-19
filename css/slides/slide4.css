@@ -18,3 +18,7 @@
 .slide4 .right-pane {
     flex-basis: 35%;
 }
+
+.slide4 video {
+    width: 100%;
+}
