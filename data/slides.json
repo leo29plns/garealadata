@@ -17,7 +17,9 @@
         },
         {
             "id": "4",
-            "jsonFiles": []
+            "jsonFiles": [
+                "rails_map.json"
+            ]
         },
         {
             "id": "5",
