@@ -12,7 +12,8 @@
         {
             "id": "3",
             "jsonFiles": [
-                "temps_parcours.json"
+                "temps_parcours.json",
+                "logo_history.json"
             ]
         },
         {

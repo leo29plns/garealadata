@@ -1,5 +1,7 @@
 // VARIABLE QUI CONTIENT MON JEU DE DONNES
 const temps_parcours_global = _globalData['slide3']['temps_parcours.json'];
+const logo_global = _globalData["slide3"]["logo_history.json"];
+console.log(logo_global);
 
 // POUR TRIER DONNES PAR ORDRE CROISSANT SELON LEUR ANNEE
 function triTempsParcoursParAnnee(tempsParcoursAnnee) {
@@ -35,6 +37,16 @@ function recupereDest (temps_parcours_trier, nomDest){
 }
 
 
+// FONCTION POUR ASSOCIER LE LOGO EN FONCTION DE L'ANNEE
+function associeLogoParAnnee (annee){
+    for (const logo of logo_global){
+        if ( annee >= logo["firstYear"] && annee <= logo["lastYear"]){
+            const logoResultat = logo["logoUrl"];
+            return logoResultat;
+        }
+    }
+}
+
 // FONCTION POUR GARDER UNIQUEMENT 10 DATES DE LA DEST A ESPACE DE TEMPS REGULIER
 function garder10Annees(destchoisie){
     let objet10Dest ={};
@@ -43,20 +55,13 @@ function garder10Annees(destchoisie){
 
     for (let i = 0; i<clesAnnees.length && Object.keys(objet10Dest).length < 10; i += step){
         const annee = clesAnnees[i];
-        objet10Dest[annee] = destchoisie[annee];
+        objet10Dest[annee] = {
+            temps_parcours : destchoisie[annee],
+            logo : associeLogoParAnnee(annee),
+        }
     }
     return objet10Dest;
 }
-
-// FONCTION POUR ASSOCIER LE LOGO EN FONCTION DE L'ANNEE
-// function associerLogoParAnnee(Dest10Choisies){
-//     let objet10DestEtLogo ={};
-//     for (const annee in Dest10Choisies){
-    
-
-//     }
-// }
-
 
 // TABLEAU AVEC LE NOM DES DESTINATIONS EN PARTANT DE PARIS 
 const tabDest = ["LYON","NANTES","MARSEILLE","BORDEAUX","STRASBOURG"];
