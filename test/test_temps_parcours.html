@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,7 +15,7 @@
 
     <script>
         const selectDest = document.querySelector('#destinations');
-        console.log(selectDest.value);
+        // console.log(selectDest.value);
         selectDest.addEventListener("change",function(){
             console.log(selectDest.value);
         })
@@ -23,7 +24,7 @@
         let hi = "hy";
 
         for (const dest of tabDest){
-            console.log(dest);
+            // console.log(dest);
             selectDest.innerHTML += `<option value=${dest}>PARIS - ${dest}</option>`;
         }
 

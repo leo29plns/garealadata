@@ -66,11 +66,11 @@ const fileNames = [
 
 fetchAndGroupFiles(fileNames);
 
-console.log(
-    fetchAndGroupFiles(fileNames),
-    groupByYearAndCategory(groupedData)
-    // moyenneParAnneeEtCategorie()
-);
+// console.log(
+//     fetchAndGroupFiles(fileNames),
+//     groupByYearAndCategory(groupedData)
+//     // moyenneParAnneeEtCategorie()
+// );
 
 
 
