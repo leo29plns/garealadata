@@ -1,10 +1,31 @@
 const _globalData = {};
 
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener('DOMContentLoaded', function () {
 
     const $_scripts = document.querySelector('._scripts');
     const $head = document.querySelector('head');
     const $main = document.querySelector('.global-wrapper > main');
+
+    let windowHash;
+
+    function refreshWindowHash() {
+        windowHash = (window.location.hash).substring(1);
+    }
+
+    refreshWindowHash()
+
+    window.addEventListener('hashchange', function () {
+        refreshWindowHash();
+        scrollToSlide(windowHash.substring(5));
+    });
+
+
+    function scrollToSlide(id) {
+        const $slide = document.querySelector(`.slide${id}`);
+        if ($slide) {
+            $slide.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
     // LOADING JSON DATA AND JS FILE
     function loadDataJsFile(id, jsonFiles) {
@@ -32,6 +53,9 @@ window.addEventListener("DOMContentLoaded", function () {
         Promise.all(promises).then(() => {
             _globalData[`slide${id}`] = slideData;
             $_scripts.appendChild(slideJs);
+            if (windowHash === `slide${id}`) {
+                scrollToSlide(id);
+            }
         });
     }
 

@@ -1,8 +1,80 @@
 .slide6 {
-    --slide-primary: 255, 255, 255;
-	--slide-secondary: 220, 88, 42;
+	--slide-primary: 220, 88, 42;
+    --slide-secondary: 79, 41, 16;
     --slide-tertiary: 0, 0, 0;
 
-    background-color: rgb(var(--slide-secondary));
+    background-color: rgb(var(--white));
     color: rgb(var(--slide-primary));
+}
+
+.slide6 .divider > div {
+    padding: var(--responsivePadding);
+}
+
+.slide6 .left-pane {
+    flex-basis: 65%;
+}
+
+.slide6 .right-pane {
+    flex-basis: 35%;
+    color: rgb(var(--white));
+    background-color: rgb(var(--slide-primary));
+}
+
+.slide6 h1 {
+    margin-bottom: 4rem;
+}
+
+.slide6 .trains {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4rem;
+}
+
+.slide6 .trains h2 {
+    font-weight: 700;
+}
+
+.slide6 .trains > div {
+    width: 100%;
+    border-bottom: 2px dashed rgb(var(--slide-secondary));
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: .5rem;
+    overflow: hidden;
+}
+
+@keyframes slide6-fromLeft {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+.slide6 .trains > div > img {
+    position: relative;
+    left: 0;
+    height: 45px;
+
+    animation: slide6-fromLeft 3s cubic-bezier(0,0,0,1);
+}
+
+.slide6 .trains > .mistral > img {
+    position: relative;
+    left: 0;
+    animation: slide6-fromLeft 5s cubic-bezier(0,0,0,1);
+}
+
+@media screen and (min-width: 36rem) {
+    .slide6 .trains > div > img {
+        height: 58px;
+    }
+    .slide6 .trains > .tgv > img {
+        content: url('../../img/slide6/tgv.png');
+    }
 }
