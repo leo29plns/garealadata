@@ -5,6 +5,10 @@
     bottom: 1.25rem;
     right: 2rem;
     gap: 1.25rem;
+    background-color: rgba(var(--white), .25);
+    backdrop-filter: saturate(180%) blur(20px);
+    padding: 0 1rem;
+    border-radius: .25rem;
 }
 
 .slider-controls button {

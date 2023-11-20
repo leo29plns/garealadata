@@ -18,3 +18,48 @@
 .slide8 .right-pane {
     flex-basis: 35%;
 }
+
+.slide8 .select-year {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-top: 4px solid rgb(var(--slide-primary));
+    padding-top: .5rem;
+    position: relative;
+}
+
+.slide8 .select-year::after {
+    content:url('../../img/slide8/arrow.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(2px, -52%);
+}
+
+.slide8 .select-year button {
+    flex-basis: 0;
+    flex-grow: 1;
+
+    background-color: transparent;
+    border: 0;
+    color: rgb(var(--slide-primary));
+    font-weight: 600;
+    aspect-ratio: 79 / 55;
+}
+
+.slide8 .select-year .selected {
+    color: rgb(var(--slide-secondary));
+    color: rgb(var(--white));
+    position: relative;
+    background-image: url('../../img/slide8/selected-button.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+
+@media screen and (min-width: 36rem) {
+    .slide8 .select-year {
+        gap: 2rem;
+    }
+}

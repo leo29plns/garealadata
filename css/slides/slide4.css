@@ -48,15 +48,15 @@
 .slide4 .rails-map-inputs input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 1.5rem;
+    width: 2.5rem;
     height: 1.5rem;
     background: rgb(var(--slide-primary));
     cursor: pointer;
-  }
-  
-  .slide4 .rails-map-inputs input[type="range"]::-moz-range-thumb {
-    width: 1.5rem;
+}
+
+.slide4 .rails-map-inputs input[type="range"]::-moz-range-thumb {
+    width: 2.5rem;
     height: 1.5rem;
     background: rgb(var(--slide-primary));
     cursor: pointer;
-  }
+}

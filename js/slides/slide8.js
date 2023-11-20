@@ -70,17 +70,23 @@
     const categoriesOrderTest = ["ponctualite", "prix", "innovation", "environnement", "infos-voyageurs", "globale"];
 
     // AFFICHER LE BON GRAPHIQUE QUAND ON CLIQUE SUR LE BOUTON
-    const anneeBouton = document.querySelectorAll('.anneechoisie');
-    let currentChart = creationchart(noteByCategorie['2018'], categoriesOrderTest);
+    const anneeBouton = document.querySelectorAll('.select-year button');
+    const firstButton = document.querySelector('.select-year button');
+    firstButton.classList.add('selected');
+    let currentChart = creationchart(noteByCategorie['2015'], categoriesOrderTest);
 
     anneeBouton.forEach(function (annee) {
         annee.addEventListener('click', function () {
             const anneeBtnSelected = this.id;
-            console.log(anneeBtnSelected);
+            // console.log(anneeBtnSelected);
 
             if (noteByCategorie[anneeBtnSelected]) {
-                // Mettez à jour le graphique au lieu de le détruire et le recréer
                 updateChart(currentChart, noteByCategorie[anneeBtnSelected], categoriesOrderTest);
+
+                anneeBouton.forEach(function (button) {
+                    button.classList.remove('selected');
+                });
+                this.classList.add('selected');
             } else {
                 console.error("Données non disponibles pour l'année sélectionnée");
             }
@@ -116,7 +122,7 @@
             },
             options: {
                 animation: {
-                    duration: 1000, // Réactive l'animation
+                    duration: 1000,
                 },
                 plugins: {
                     legend: {
@@ -124,7 +130,7 @@
                     },
                     title: {
                         display: true,
-                        text: noteByCategorieYear[0].annee, // ou utilisez l'année à partir des données
+                        text: noteByCategorieYear[0].annee,
                     },
                     tooltip: {
                         enabled: true,
@@ -171,7 +177,6 @@
         return newChart;
     }
 
-    // Remplacez la fonction de destruction du graphique par une fonction de mise à jour
     function updateChart(chart, noteByCategorieYear, categoriesOrderTest) {
         let chartValuesCategory = [];
         let chartValuesNotes = [];
@@ -185,14 +190,11 @@
             }
         });
 
-        // Mise à jour des données du graphique
         chart.data.labels = chartValuesCategory;
         chart.data.datasets[0].data = chartValuesNotes;
 
-        // Mettez à jour le titre du graphique
-        chart.options.plugins.title.text = noteByCategorieYear[0].annee; // ou utilisez l'année à partir des données
+        chart.options.plugins.title.text = noteByCategorieYear[0].annee;
 
-        // Redessinez le graphique avec des animations
         chart.update();
     }
 

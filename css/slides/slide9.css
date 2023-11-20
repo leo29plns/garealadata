@@ -24,3 +24,10 @@
     width: 45%;
     margin: 0 auto;
 }
+
+.slide9 h2 {
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: .5rem;
+    margin-bottom: .25rem;
+}
