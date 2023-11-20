@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener('DOMContentLoaded', function () {
 
     HTMLElement.prototype.addResizeListener = function (cssVariable, axis, applyGlobally = false, elementValue = this) {
         const element = this;

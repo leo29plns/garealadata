@@ -5,4 +5,29 @@
 
     background-color: rgb(var(--slide-secondary));
     color: rgb(var(--slide-primary));
+
+    font-size: .5em;
+}
+
+
+.slide9 .divider > div {
+    padding: var(--responsivePadding);
+}
+
+.slide9 .right-pane {
+    background-image: url('../../img/slide9/ZJBA7D.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.slide9 .right-pane img {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.slide9 h2 {
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: .5rem;
+    margin-bottom: .25rem;
 }

@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener('DOMContentLoaded', function () {
 
     const sliderControls = document.querySelectorAll('.slider-controls');
     const scrollButtons = document.querySelectorAll('.slider-controls button');
@@ -52,7 +52,10 @@ window.addEventListener("DOMContentLoaded", function () {
     });
 
     function onScreen(element) {
-        console.log(element);
+        const elementClass = element.classList.value;
+        window[`${elementClass}Active`]();
+
+        window.location.hash = elementClass;
     }
 
     Element.prototype.onScreenEnter = function (threshold) {

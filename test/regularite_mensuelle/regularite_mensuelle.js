@@ -4,7 +4,7 @@ fetch("./regularite_mensuelle.json")
         return response.json()
     })
     .then(jsondata => {
-        console.log(jsondata);
+        // console.log(jsondata);
         creationchart(jsondata['data'])
         // le jsondata contient toutes les données de mon json et creation chart et la foncction du dessous qui va créer mon graphique
     })
