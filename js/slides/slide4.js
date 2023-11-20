@@ -22,6 +22,7 @@ let slide4_autoTimeupdate = true;
     let lastExecutionTime = 0;
     const delay = 1000 / videoFrameRate * safetyMultiplier;
 
+    // QUAND ON MODIFIE LE SLIDER RANGE
     slider.addEventListener('input', function () {
         $video.pause();
         const currentTime = Date.now();
@@ -34,6 +35,7 @@ let slide4_autoTimeupdate = true;
         }
     });
 
+    // QUAND ON ENTRE DATE A LA MAIN
     yearInput.addEventListener('change', function () {
         const sliderValue = parseInt(yearInput.value) - startDate;
 
@@ -50,6 +52,7 @@ let slide4_autoTimeupdate = true;
         }
     });
 
+    // POUR SAFARI UNIQUEMENT
     $video.addEventListener('loadedmetadata', function () {
         slider.max = $video.duration * videoFrameRate - 1;
     });
