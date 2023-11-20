@@ -2,7 +2,7 @@ let slide4_autoTimeupdate = true;
 
 (function () {
 
-    const video = document.querySelector('.slide4 .rails-map video');
+    const $video = document.querySelector('.slide4 .rails-map video');
 
     const videoProperties = _globalData['slide4']['rails_map.json'];
 
@@ -14,21 +14,21 @@ let slide4_autoTimeupdate = true;
     const slider = document.querySelector('.slide4 .map-slider');
     const yearInput = document.querySelector('.slide4 .year-input');
 
-    slider.max = video.duration * videoFrameRate - 1;
+    slider.max = $video.duration * videoFrameRate - 1;
 
     yearInput.min = startDate;
-    yearInput.max = video.duration * videoFrameRate - 1 + startDate;
+    yearInput.max = $video.duration * videoFrameRate - 1 + startDate;
 
     let lastExecutionTime = 0;
     const delay = 1000 / videoFrameRate * safetyMultiplier;
 
     slider.addEventListener('input', function () {
-        video.pause();
+        $video.pause();
         const currentTime = Date.now();
 
         if (currentTime - lastExecutionTime >= delay) {
             lastExecutionTime = currentTime;
-            video.currentTime = slider.value / videoFrameRate;
+            $video.currentTime = slider.value / videoFrameRate;
 
             yearInput.value = startDate + parseInt(slider.value);
         }
@@ -39,28 +39,30 @@ let slide4_autoTimeupdate = true;
 
         autoTimeupdate = false;
 
-        video.currentTime = sliderValue / videoFrameRate;
+        $video.currentTime = sliderValue / videoFrameRate;
         slider.value = sliderValue;
     });
 
-    video.addEventListener('timeupdate', function () {
+    $video.addEventListener('timeupdate', function () {
         if (autoTimeupdate) {
-            slider.value = video.currentTime * videoFrameRate;
+            slider.value = $video.currentTime * videoFrameRate;
             yearInput.value = startDate + parseInt(slider.value);
         }
     });
 
-    video.addEventListener('loadedmetadata', function () {
-        slider.max = video.duration * videoFrameRate - 1;
+    $video.addEventListener('loadedmetadata', function () {
+        slider.max = $video.duration * videoFrameRate - 1;
     });
 
 })();
 
 function slide4Active() {
-    const video = document.querySelector('.slide4 .rails-map video')
+    const $video = document.querySelector('.slide4 .rails-map video');
 
     autoTimeupdate = true;
 
-    video.currentTime = 0;
-    video.play();
+    $video.currentTime = 0;
+    $video.play();
+
+    fadeStopVideo($video);
 }

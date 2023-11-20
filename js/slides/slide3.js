@@ -80,13 +80,29 @@
     const destAffichee = selectDest.value;
     const valeursDestAffichee = recupereDest(temps_parcours_global_trier,destAffichee);
 
+    const $traveltimeboardBody = document.querySelector('.travel-time-board tbody');
 
     // RECUPERE LA VALUE DE LA DEST A CHAQUE FOIS QU'ON SELECTIONNE DANS LE SELECT
-    selectDest.addEventListener("change",function(){
+    selectDest.addEventListener('change',function () {
         const destSelectionner = selectDest.value;
         const afficheDestSelectionner = recupereDest(temps_parcours_global_trier,destSelectionner);
-        console.log(garder10Annees(afficheDestSelectionner));
+        const tenYears = garder10Annees(afficheDestSelectionner);
+
+        let html = '';
+        for (const yearTravel in tenYears) {
+            const yearData = tenYears[yearTravel];
+            html += `
+                <tr>
+                    <td><img src="img/slide3/${yearData['logo']}"></td>
+                    <td>${yearTravel}</td>
+                    <td>${yearData['temps_parcours']}</td>
+                </tr>
+            `;
+        }
+        $traveltimeboardBody.innerHTML = html;
     })
+
+    selectDest.dispatchEvent(new Event("change", { bubbles: true }));
 
 })();
 

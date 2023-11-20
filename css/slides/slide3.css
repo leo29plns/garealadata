@@ -11,42 +11,54 @@
     padding: var(--responsivePadding);
 }
 
-.slide3 .container_duree{
-    width: 100%;
-    background-color: blueviolet;
-    height: 70%;
-}
-
-.slide3 .duree{
-    width: 100%;
-    height: 10%;
+.slide3 .destination {
+    background-color: rgb(var(--dark));
+    color: rgb(var(--white));
     display: flex;
-    align-items: center;
-    gap: 12%;
-    font-size: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: .5rem;
 }
 
-.slide3 img{
-    margin-left: 10px;
-}
-
-.slide3 .annee_temps_parcours{
-    color: white;
-}
-
-.slide3 .temps_parcours{
+.slide3 .destination select {
+    border: 0;
     color: #FFEB3D;
+    font-size: 1.5em;
+    background-color: transparent;
+}
+
+.slide3 .travel-time-board {
+    width: 100%;
+    border: .5rem solid rgb(var(--dark));
+}
+
+.slide3 .travel-time-board tbody {
+    font-size: 1.5em;
+    background-color: #042770;
+    color: rgb(var(--white));
+}
+
+.slide3 .travel-time-board tbody tr:nth-of-type(odd) {
+    background-color: #0053A7;
+}
+
+.slide3 .travel-time-board tbody tr > td {
+    padding: .5rem 0;
+    vertical-align: middle;
+    width: fit-content;
+}
+
+.slide3 .travel-time-board tbody tr > td:first-of-type {
+    text-align: center;
+}
+
+.slide3 .travel-time-board tbody tr > td img {
+    height: 1.5rem;
+    aspect-ratio: 1 / 1;
+}
+
+.slide3 .travel-time-board tbody tr > td:nth-of-type(3) {
     font-weight: 700;
-}
-
-.slide3 .bleu_clair{
-    background-color:#0053A7 ;
-}
-
-.slide3 .bleu_fonce{
-    background-color:#042770 ;
-}
-
-.slide3 label{
-    padding-top: 15px;
+    color: #FFEB3D;
 }

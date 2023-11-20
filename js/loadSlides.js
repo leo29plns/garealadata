@@ -27,6 +27,10 @@ window.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+    (window.matchMedia('(min-width: 36rem)')).addEventListener('change', function () {
+        scrollToSlide(windowHash.substring(5));
+    });
+
     // LOADING JSON DATA AND JS FILE
     function loadDataJsFile(id, jsonFiles) {
         const slideJs = document.createElement('script');
