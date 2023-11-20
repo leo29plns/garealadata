@@ -22,3 +22,44 @@
 .slide4 video {
     width: 100%;
 }
+
+.slide4 .rails-map-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.slide4 .rails-map-inputs input[type="number"] {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: transparent;
+    color: rgb(var(--slide-primary));
+}
+
+.slide4 .rails-map-inputs input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 1.5rem;
+    background: rgb(var(--slide-secondary));
+    outline: none;
+    border-radius: 100rem;
+}
+
+.slide4 .rails-map-inputs input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: rgb(var(--slide-primary));
+    cursor: pointer;
+    border-radius: 100rem;
+  }
+  
+  .slide4 .rails-map-inputs input[type="range"]::-moz-range-thumb {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: rgb(var(--slide-primary));
+    cursor: pointer;
+    border-radius: 100rem;
+  }
