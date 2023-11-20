@@ -4,6 +4,7 @@ window.addEventListener('DOMContentLoaded', function () {
     const scrollButtons = document.querySelectorAll('.slider-controls button');
     const globalWrapper = document.querySelector('.global-wrapper');
 
+    // SCROLL TO LEFT OR RIGHT (DEFAULT)
     function scrollNext(next = true) {
         const slide = document.querySelector('main > div');
 
@@ -31,6 +32,7 @@ window.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    // KEYBOARD COMMANDS
     document.addEventListener('keydown', function (event) {
         switch (event.code) {
             case 'ArrowRight':
@@ -51,6 +53,7 @@ window.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    // AN ELEMENT WITH METHOD onScreenEnter IS ON SCREEN, WE CALL FUNCTION slideXActive()
     function onScreen(element) {
         const elementClass = element.classList.value;
         window[`${elementClass}Active`]();
