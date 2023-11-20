@@ -1,0 +1,23 @@
+.slide1 {
+    --slide-primary: 51, 42, 47;
+	--slide-secondary: 255, 255, 255;
+    --slide-tertiary: 51, 42, 47;
+
+    background-color: rgb(var(--slide-secondary));
+    color: rgb(var(--slide-primary));
+}
+
+.slide1 .divider > div {
+    padding: var(--responsivePadding);
+}
+
+.slide1 .right-pane {
+    background-image: url('../../img/slide1/A6RG3K.jpeg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.slide1 .right-pane img {
+    width: 45%;
+    margin: 0 auto;
+}

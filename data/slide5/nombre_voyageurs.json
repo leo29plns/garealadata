@@ -1,0 +1,722 @@
+{
+  "source": "SNCF",
+  "url": "https://data.sncf.com/explore/dataset/trafic-de-voyageurs-et-marchandises-depuis-1841",
+  "data": [
+    {
+      "year": 1841,
+      "travellers": "6330000"
+    },
+    {
+      "year": 1842,
+      "travellers": "6160000"
+    },
+    {
+      "year": 1843,
+      "travellers": "7300000"
+    },
+    {
+      "year": 1844,
+      "travellers": "8080000"
+    },
+    {
+      "year": 1845,
+      "travellers": "8800000"
+    },
+    {
+      "year": 1846,
+      "travellers": "10400000"
+    },
+    {
+      "year": 1847,
+      "travellers": "12700000"
+    },
+    {
+      "year": 1848,
+      "travellers": "11800000"
+    },
+    {
+      "year": 1849,
+      "travellers": "14700000"
+    },
+    {
+      "year": 1850,
+      "travellers": "18500000"
+    },
+    {
+      "year": 1851,
+      "travellers": "19600000"
+    },
+    {
+      "year": 1852,
+      "travellers": "22300000"
+    },
+    {
+      "year": 1853,
+      "travellers": "24300000"
+    },
+    {
+      "year": 1854,
+      "travellers": "27700000"
+    },
+    {
+      "year": 1855,
+      "travellers": "32400000"
+    },
+    {
+      "year": 1856,
+      "travellers": "35800000"
+    },
+    {
+      "year": 1857,
+      "travellers": "41000000"
+    },
+    {
+      "year": 1858,
+      "travellers": "44700000"
+    },
+    {
+      "year": 1859,
+      "travellers": "51700000"
+    },
+    {
+      "year": 1860,
+      "travellers": "55800000"
+    },
+    {
+      "year": 1861,
+      "travellers": "61100000"
+    },
+    {
+      "year": 1862,
+      "travellers": "64200000"
+    },
+    {
+      "year": 1863,
+      "travellers": "69300000"
+    },
+    {
+      "year": 1864,
+      "travellers": "74400000"
+    },
+    {
+      "year": 1865,
+      "travellers": "80500000"
+    },
+    {
+      "year": 1866,
+      "travellers": "86200000"
+    },
+    {
+      "year": 1867,
+      "travellers": "100000000"
+    },
+    {
+      "year": 1868,
+      "travellers": "101000000"
+    },
+    {
+      "year": 1869,
+      "travellers": "109000000"
+    },
+    {
+      "year": 1870,
+      "travellers": "100000000"
+    },
+    {
+      "year": 1871,
+      "travellers": "94100000"
+    },
+    {
+      "year": 1872,
+      "travellers": "110000000"
+    },
+    {
+      "year": 1873,
+      "travellers": "113000000"
+    },
+    {
+      "year": 1874,
+      "travellers": "118000000"
+    },
+    {
+      "year": 1875,
+      "travellers": "127000000"
+    },
+    {
+      "year": 1876,
+      "travellers": "133000000"
+    },
+    {
+      "year": 1877,
+      "travellers": "134000000"
+    },
+    {
+      "year": 1878,
+      "travellers": "148000000"
+    },
+    {
+      "year": 1879,
+      "travellers": "146000000"
+    },
+    {
+      "year": 1880,
+      "travellers": "160000000"
+    },
+    {
+      "year": 1881,
+      "travellers": "174000000"
+    },
+    {
+      "year": 1882,
+      "travellers": "89000000"
+    },
+    {
+      "year": 1883,
+      "travellers": "201000000"
+    },
+    {
+      "year": 1884,
+      "travellers": "206000000"
+    },
+    {
+      "year": 1885,
+      "travellers": "209000000"
+    },
+    {
+      "year": 1886,
+      "travellers": "211000000"
+    },
+    {
+      "year": 1887,
+      "travellers": "211000000"
+    },
+    {
+      "year": 1888,
+      "travellers": "217000000"
+    },
+    {
+      "year": 1889,
+      "travellers": "236000000"
+    },
+    {
+      "year": 1890,
+      "travellers": "234000000"
+    },
+    {
+      "year": 1891,
+      "travellers": "248000000"
+    },
+    {
+      "year": 1892,
+      "travellers": "279000000"
+    },
+    {
+      "year": 1893,
+      "travellers": "308000000"
+    },
+    {
+      "year": 1894,
+      "travellers": "326000000"
+    },
+    {
+      "year": 1895,
+      "travellers": "338000000"
+    },
+    {
+      "year": 1896,
+      "travellers": "352000000"
+    },
+    {
+      "year": 1897,
+      "travellers": "364000000"
+    },
+    {
+      "year": 1898,
+      "travellers": "375000000"
+    },
+    {
+      "year": 1899,
+      "travellers": "390000000"
+    },
+    {
+      "year": 1900,
+      "travellers": "430000000"
+    },
+    {
+      "year": 1901,
+      "travellers": "406000000"
+    },
+    {
+      "year": 1902,
+      "travellers": "410000000"
+    },
+    {
+      "year": 1903,
+      "travellers": "413000000"
+    },
+    {
+      "year": 1904,
+      "travellers": "420000000"
+    },
+    {
+      "year": 1905,
+      "travellers": "429000000"
+    },
+    {
+      "year": 1906,
+      "travellers": "445000000"
+    },
+    {
+      "year": 1907,
+      "travellers": "459000000"
+    },
+    {
+      "year": 1908,
+      "travellers": "464000000"
+    },
+    {
+      "year": 1909,
+      "travellers": "476000000"
+    },
+    {
+      "year": 1910,
+      "travellers": "492000000"
+    },
+    {
+      "year": 1911,
+      "travellers": "494000000"
+    },
+    {
+      "year": 1912,
+      "travellers": "509000000"
+    },
+    {
+      "year": 1913,
+      "travellers": "529000000"
+    },
+    {
+      "year": 1914,
+      "travellers": "355000000"
+    },
+    {
+      "year": 1915,
+      "travellers": "209000000"
+    },
+    {
+      "year": 1916,
+      "travellers": "325000000"
+    },
+    {
+      "year": 1917,
+      "travellers": "352000000"
+    },
+    {
+      "year": 1918,
+      "travellers": "377000000"
+    },
+    {
+      "year": 1919,
+      "travellers": "463000000"
+    },
+    {
+      "year": 1920,
+      "travellers": "500000000"
+    },
+    {
+      "year": 1921,
+      "travellers": "661000000"
+    },
+    {
+      "year": 1922,
+      "travellers": "720000000"
+    },
+    {
+      "year": 1923,
+      "travellers": "767000000"
+    },
+    {
+      "year": 1924,
+      "travellers": "772000000"
+    },
+    {
+      "year": 1925,
+      "travellers": "802000000"
+    },
+    {
+      "year": 1926,
+      "travellers": "777000000"
+    },
+    {
+      "year": 1927,
+      "travellers": "724000000"
+    },
+    {
+      "year": 1928,
+      "travellers": "745000000"
+    },
+    {
+      "year": 1929,
+      "travellers": "765000000"
+    },
+    {
+      "year": 1930,
+      "travellers": "790000000"
+    },
+    {
+      "year": 1931,
+      "travellers": "773000000"
+    },
+    {
+      "year": 1932,
+      "travellers": "705000000"
+    },
+    {
+      "year": 1933,
+      "travellers": "661000000"
+    },
+    {
+      "year": 1934,
+      "travellers": "622000000"
+    },
+    {
+      "year": 1935,
+      "travellers": "582000000"
+    },
+    {
+      "year": 1936,
+      "travellers": "577000000"
+    },
+    {
+      "year": 1937,
+      "travellers": "614000000"
+    },
+    {
+      "year": 1938,
+      "travellers": "540000000"
+    },
+    {
+      "year": 1939,
+      "travellers": "481000000"
+    },
+    {
+      "year": 1940,
+      "travellers": "347000000"
+    },
+    {
+      "year": 1941,
+      "travellers": "454000000"
+    },
+    {
+      "year": 1942,
+      "travellers": "579000000"
+    },
+    {
+      "year": 1943,
+      "travellers": "686000000"
+    },
+    {
+      "year": 1944,
+      "travellers": "433000000"
+    },
+    {
+      "year": 1945,
+      "travellers": "596000000"
+    },
+    {
+      "year": 1946,
+      "travellers": "696000000"
+    },
+    {
+      "year": 1947,
+      "travellers": "649000000"
+    },
+    {
+      "year": 1948,
+      "travellers": "645000000"
+    },
+    {
+      "year": 1949,
+      "travellers": "597000000"
+    },
+    {
+      "year": 1950,
+      "travellers": "546000000"
+    },
+    {
+      "year": 1951,
+      "travellers": "549000000"
+    },
+    {
+      "year": 1952,
+      "travellers": "543000000"
+    },
+    {
+      "year": 1953,
+      "travellers": "496000000"
+    },
+    {
+      "year": 1954,
+      "travellers": "500000000"
+    },
+    {
+      "year": 1955,
+      "travellers": "509000000"
+    },
+    {
+      "year": 1956,
+      "travellers": "526000000"
+    },
+    {
+      "year": 1957,
+      "travellers": "552000000"
+    },
+    {
+      "year": 1958,
+      "travellers": "553000000"
+    },
+    {
+      "year": 1959,
+      "travellers": "568000000"
+    },
+    {
+      "year": 1960,
+      "travellers": "570000000"
+    },
+    {
+      "year": 1961,
+      "travellers": "576000000"
+    },
+    {
+      "year": 1962,
+      "travellers": "579000000"
+    },
+    {
+      "year": 1963,
+      "travellers": "599000000"
+    },
+    {
+      "year": 1964,
+      "travellers": "608000000"
+    },
+    {
+      "year": 1965,
+      "travellers": "620000000"
+    },
+    {
+      "year": 1966,
+      "travellers": "628000000"
+    },
+    {
+      "year": 1967,
+      "travellers": "624000000"
+    },
+    {
+      "year": 1968,
+      "travellers": "579000000"
+    },
+    {
+      "year": 1969,
+      "travellers": "607000000"
+    },
+    {
+      "year": 1970,
+      "travellers": "613000000"
+    },
+    {
+      "year": 1971,
+      "travellers": "608000000"
+    },
+    {
+      "year": 1972,
+      "travellers": "626000000"
+    },
+    {
+      "year": 1973,
+      "travellers": "619880000"
+    },
+    {
+      "year": 1974,
+      "travellers": "642300000"
+    },
+    {
+      "year": 1975,
+      "travellers": "657930000"
+    },
+    {
+      "year": 1976,
+      "travellers": "655080000"
+    },
+    {
+      "year": 1977,
+      "travellers": "673460000"
+    },
+    {
+      "year": 1978,
+      "travellers": "684040000"
+    },
+    {
+      "year": 1979,
+      "travellers": "688450000"
+    },
+    {
+      "year": 1980,
+      "travellers": "685820000"
+    },
+    {
+      "year": 1981,
+      "travellers": "697820000"
+    },
+    {
+      "year": 1982,
+      "travellers": "714720000"
+    },
+    {
+      "year": 1983,
+      "travellers": "736100000"
+    },
+    {
+      "year": 1984,
+      "travellers": "755640000"
+    },
+    {
+      "year": 1985,
+      "travellers": "776920000"
+    },
+    {
+      "year": 1986,
+      "travellers": "778750000"
+    },
+    {
+      "year": 1987,
+      "travellers": "782360000"
+    },
+    {
+      "year": 1988,
+      "travellers": "810000000"
+    },
+    {
+      "year": 1989,
+      "travellers": "824900000"
+    },
+    {
+      "year": 1990,
+      "travellers": "842550000"
+    },
+    {
+      "year": 1991,
+      "travellers": "836950000"
+    },
+    {
+      "year": 1992,
+      "travellers": "829380000"
+    },
+    {
+      "year": 1993,
+      "travellers": "823000000"
+    },
+    {
+      "year": 1994,
+      "travellers": "806000000"
+    },
+    {
+      "year": 1995,
+      "travellers": "740800000"
+    },
+    {
+      "year": 1996,
+      "travellers": "786527000"
+    },
+    {
+      "year": 1997,
+      "travellers": "807200000"
+    },
+    {
+      "year": 1998,
+      "travellers": "822700000"
+    },
+    {
+      "year": 1999,
+      "travellers": "849900000"
+    },
+    {
+      "year": 2000,
+      "travellers": "846186637"
+    },
+    {
+      "year": 2001,
+      "travellers": "859505981"
+    },
+    {
+      "year": 2002,
+      "travellers": "887188386"
+    },
+    {
+      "year": 2003,
+      "travellers": "891694818"
+    },
+    {
+      "year": 2004,
+      "travellers": "931357863"
+    },
+    {
+      "year": 2005,
+      "travellers": "963502661"
+    },
+    {
+      "year": 2006,
+      "travellers": "1001715542"
+    },
+    {
+      "year": 2007,
+      "travellers": "1032121228"
+    },
+    {
+      "year": 2008,
+      "travellers": "1076191643"
+    },
+    {
+      "year": 2009,
+      "travellers": "1075337810"
+    },
+    {
+      "year": 2010,
+      "travellers": "1075987508"
+    },
+    {
+      "year": 2011,
+      "travellers": "1111470595"
+    },
+    {
+      "year": 2012,
+      "travellers": "1134118320"
+    },
+    {
+      "year": 2013,
+      "travellers": "1148072320"
+    },
+    {
+      "year": 2014,
+      "travellers": "1140689732"
+    },
+    {
+      "year": 2015,
+      "travellers": "1185428558"
+    },
+    {
+      "year": 2016,
+      "travellers": "1218078971"
+    },
+    {
+      "year": 2017,
+      "travellers": "1257976761"
+    },
+    {
+      "year": 2018,
+      "travellers": "1225536433"
+    },
+    {
+      "year": 2019,
+      "travellers": "1244747489"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.slide2 {
+    --slide-primary: 51, 42, 47;
+	--slide-secondary: 255, 255, 255;
+    --slide-tertiary: 51, 42, 47;
+
+    background-color: rgb(var(--slide-secondary));
+    color: rgb(var(--slide-primary));
+}
+
+.slide2 .divider > div {
+    padding: var(--responsivePadding);
+}
+
+.slide2 .left-pane {
+    background-image: url('../../img/slide2/CBE6ZM.jpeg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+.slide2 .left-pane img {
+    width: 45%;
+    margin: 0 auto;
+}

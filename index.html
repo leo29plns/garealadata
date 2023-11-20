@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="fonts/avenir/fonts.css">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="public/img/apple-touch-icon.png">
+
+    <meta name="author" content="Léa V. - Anaïs M. - Léo P.">
+    <meta name="theme-color" content="var(--themeColor)">
+    
+    <meta name="description" content="Gare à la Data, la visualisation des données liées à la SNCF en France." >
+
+    <title>Gare à la Data</title>
+
+    <meta property="og:title" content="Home">
+    <!-- <meta property="og:image" content="https://www.site.fr/public/img/og/og-image.webp"> -->
+    <!-- <meta property="og:url" content="https://www.site.fr/en/home/"> -->
+    <meta property="og:description" content="Gare à la Data, la visualisation des données liées à la SNCF en France.">
+    <meta property="og:locale" content="fr">
+    <meta property="og:site_name" content="Gare à la Data">
+    <meta property="twitter:card" content="summary_large_image">
+    <!-- <meta property="twitter:image" content="https://www.site.fr/public/img/og/og-image.webp"> -->
+    <meta property="twitter:title" content="Gare à la Data">
+    <meta property="twitter:description" content="Gare à la Data, la visualisation des données liées à la SNCF en France.">
 </head>
 <body>
-    <h1>Hello world!</h1>
+
+    <div class="global-wrapper">
+
+        <main></main>
+
+        <nav class="slider-controls">
+            <button data-scroll_next="false" type="button">
+                <img src="img/arrow.svg" alt="Slide précédente">
+                <span class="sr-only">Slide précédente</span>
+            </button>
+            <button data-scroll_next="true" type="button">
+                <img src="img/arrow.svg" alt="Slide suivante">
+                <span class="sr-only">Slide suivante</span>
+            </button>
+        </nav>
+    </div>
+
+    <div class="_scripts">
+        <script src="js/slidesScroll.js" defer></script>
+        <script src="js/loadSlides.js" defer></script>
+        <script src="js/css.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </div>
+
 </body>
 </html>

@@ -1,0 +1,8 @@
+.slide9 {
+    --slide-primary: 51, 42, 47;
+	--slide-secondary: 255, 255, 255;
+    --slide-tertiary: 51, 42, 47;
+
+    background-color: rgb(var(--slide-secondary));
+    color: rgb(var(--slide-primary));
+}

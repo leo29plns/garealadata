@@ -1,0 +1,33 @@
+.divider {
+    display: flex;
+    height: 100%;
+
+    flex-direction: column;
+}
+
+.divider > div {
+    flex-shrink: 0;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.biggerH1 {
+    font-weight: 900;
+    font-size: 4.25em;
+}
+
+@media screen and (min-width: 36rem) {
+    .divider {
+        flex-direction: row;
+    }
+
+    .divider .left-pane {
+        order: 1;
+    }
+
+    .divider .right-pane {
+        order: 2;
+    }
+}

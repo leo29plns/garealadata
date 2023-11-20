@@ -1,0 +1,50 @@
+.slider-controls {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 2rem;
+    gap: 1.25rem;
+}
+
+.slider-controls button {
+    background-color: transparent;
+    border: none;
+    font-size: 0;
+}
+
+.slider-controls button img {
+    transition: all .25s ease;
+}
+
+.slider-controls button:first-of-type img {
+    rotate: 0deg;
+}
+
+.slider-controls button:last-of-type img {
+    rotate: 180deg;
+}
+
+@media screen and (min-width: 36rem) {
+    .slider-controls {
+        flex-direction: row;
+    }
+    
+    .slider-controls button img {
+        rotate: initial;
+    }
+
+    .slider-controls button:first-of-type img{
+        rotate: -90deg;
+    }
+
+    .slider-controls button:last-of-type img {
+        rotate: 90deg;
+    }
+}
+
+@media screen and (pointer: coarse) {
+    .slider-controls {
+        display: none;
+    }
+}

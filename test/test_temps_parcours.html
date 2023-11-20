@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test temps parcours</title>
+</head>
+<body>
+    <select name="destinations" id="destinations">
+
+    </select>
+    
+
+
+    <script>
+        const selectDest = document.querySelector('#destinations');
+        console.log(selectDest.value);
+        selectDest.addEventListener("change",function(){
+            console.log(selectDest.value);
+        })
+
+        const tabDest = ["LYON","NANTES","MARSEILLE","BORDEAUX"];
+        let hi = "hy";
+
+        for (const dest of tabDest){
+            console.log(dest);
+            selectDest.innerHTML += `<option value=${dest}>PARIS - ${dest}</option>`;
+        }
+
+        // selectDest.innerHTML ="<option>Coucou :)</option>" + "<option>Bonjour</option>";
+        // selectDest.innerHTML+=`<option value="slt">Salut ${hi}</option>`;
+    </script>
+
+</body>
+</html>

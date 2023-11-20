@@ -1,0 +1,1421 @@
+{
+    "source": "GMV",
+    "url": "https://data.sncf.com/explore/dataset/barometre-notes-dopinion-sncf-gmv",
+    "data": [
+        {
+            "date": "2018-02",
+            "indicateur": "prix",
+            "global": 4.509650996
+        },
+        {
+            "date": "2018-02",
+            "indicateur": "environnement",
+            "global": 5.571693382
+        },
+        {
+            "date": "2018-06",
+            "indicateur": "information-voyageurs",
+            "global": 4.413389857
+        },
+        {
+            "date": "2018-07",
+            "indicateur": "globale",
+            "global": 4.661866801
+        },
+        {
+            "date": "2018-07",
+            "indicateur": "innovation",
+            "global": 5.202048501
+        },
+        {
+            "date": "2018-07",
+            "indicateur": "environnement",
+            "global": 5.46866956
+        },
+        {
+            "date": "2018-08",
+            "indicateur": "globale",
+            "global": 4.777087942
+        },
+        {
+            "date": "2018-09",
+            "indicateur": "globale",
+            "global": 4.964419476
+        },
+        {
+            "date": "2018-09",
+            "indicateur": "prix",
+            "global": 4.634050881
+        },
+        {
+            "date": "2018-10",
+            "indicateur": "information-voyageurs",
+            "global": 4.501893939
+        },
+        {
+            "date": "2018-11",
+            "indicateur": "globale",
+            "global": 5.43015873
+        },
+        {
+            "date": "2018-11",
+            "indicateur": "information-voyageurs",
+            "global": 4.816129032
+        },
+        {
+            "date": "2019-01",
+            "indicateur": "environnement",
+            "global": 5.871425997
+        },
+        {
+            "date": "2019-02",
+            "indicateur": "innovation",
+            "global": 5.779443255
+        },
+        {
+            "date": "2019-02",
+            "indicateur": "information-voyageurs",
+            "global": 4.613226453
+        },
+        {
+            "date": "2019-02",
+            "indicateur": "environnement",
+            "global": 5.89978678
+        },
+        {
+            "date": "2019-03",
+            "indicateur": "innovation",
+            "global": 5.681188119
+        },
+        {
+            "date": "2019-04",
+            "indicateur": "ponctualite",
+            "global": 4.03401697
+        },
+        {
+            "date": "2019-06",
+            "indicateur": "prix",
+            "global": 4.780518954
+        },
+        {
+            "date": "2019-07",
+            "indicateur": "prix",
+            "global": 5.372650919
+        },
+        {
+            "date": "2019-08",
+            "indicateur": "prix",
+            "global": 4.642062099
+        },
+        {
+            "date": "2019-09",
+            "indicateur": "information-voyageurs",
+            "global": 4.954728152
+        },
+        {
+            "date": "2019-11",
+            "indicateur": "globale",
+            "global": 5.304660245
+        },
+        {
+            "date": "2019-11",
+            "indicateur": "information-voyageurs",
+            "global": 4.600695894
+        },
+        {
+            "date": "2019-12",
+            "indicateur": "ponctualite",
+            "global": 3.77488706
+        },
+        {
+            "date": "2019-12",
+            "indicateur": "prix",
+            "global": 4.62503321
+        },
+        {
+            "date": "2020-01",
+            "indicateur": "globale",
+            "global": 4.556848436
+        },
+        {
+            "date": "2020-01",
+            "indicateur": "information-voyageurs",
+            "global": 4.221517787
+        },
+        {
+            "date": "2020-02",
+            "indicateur": "information-voyageurs",
+            "global": 4.5202866
+        },
+        {
+            "date": "2020-02",
+            "indicateur": "environnement",
+            "global": 5.46699212
+        },
+        {
+            "date": "2020-04",
+            "indicateur": "environnement",
+            "global": 5.907119114
+        },
+        {
+            "date": "2020-05",
+            "indicateur": "innovation",
+            "global": 5.784521836
+        },
+        {
+            "date": "2020-05",
+            "indicateur": "environnement",
+            "global": 5.848284528
+        },
+        {
+            "date": "2020-08",
+            "indicateur": "globale",
+            "global": 5.166359423
+        },
+        {
+            "date": "2020-08",
+            "indicateur": "information-voyageurs",
+            "global": 4.729336776
+        },
+        {
+            "date": "2020-09",
+            "indicateur": "information-voyageurs",
+            "global": 4.436330435
+        },
+        {
+            "date": "2020-11",
+            "indicateur": "globale",
+            "global": 5.59103720074
+        },
+        {
+            "date": "2020-12",
+            "indicateur": "ponctualite",
+            "global": 4.31047642134
+        },
+        {
+            "date": "2021-03",
+            "indicateur": "ponctualite",
+            "global": 4.39552467421
+        },
+        {
+            "date": "2021-03",
+            "indicateur": "prix",
+            "global": 5.29282405083
+        },
+        {
+            "date": "2021-04",
+            "indicateur": "globale",
+            "global": 5.65309035403
+        },
+        {
+            "date": "2021-06",
+            "indicateur": "prix",
+            "global": 5.370472656
+        },
+        {
+            "date": "2021-07",
+            "indicateur": "prix",
+            "global": 5.29265655
+        },
+        {
+            "date": "2021-08",
+            "indicateur": "ponctualite",
+            "global": 4.464109857
+        },
+        {
+            "date": "2021-08",
+            "indicateur": "innovation",
+            "global": 5.819331332
+        },
+        {
+            "date": "2021-08",
+            "indicateur": "environnement",
+            "global": 5.999971549
+        },
+        {
+            "date": "2021-09",
+            "indicateur": "prix",
+            "global": 5.19556256
+        },
+        {
+            "date": "2018-01",
+            "indicateur": "globale",
+            "global": 5.023795572
+        },
+        {
+            "date": "2018-03",
+            "indicateur": "prix",
+            "global": 4.584566211
+        },
+        {
+            "date": "2018-03",
+            "indicateur": "innovation",
+            "global": 5.470889035
+        },
+        {
+            "date": "2018-03",
+            "indicateur": "information-voyageurs",
+            "global": 4.422655868
+        },
+        {
+            "date": "2018-04",
+            "indicateur": "information-voyageurs",
+            "global": 4.259494811
+        },
+        {
+            "date": "2018-05",
+            "indicateur": "ponctualite",
+            "global": 3.113586359
+        },
+        {
+            "date": "2018-05",
+            "indicateur": "information-voyageurs",
+            "global": 4.073707666
+        },
+        {
+            "date": "2018-05",
+            "indicateur": "environnement",
+            "global": 5.374397793
+        },
+        {
+            "date": "2018-07",
+            "indicateur": "prix",
+            "global": 4.58911278
+        },
+        {
+            "date": "2018-08",
+            "indicateur": "information-voyageurs",
+            "global": 4.203283046
+        },
+        {
+            "date": "2018-08",
+            "indicateur": "environnement",
+            "global": 5.56366302
+        },
+        {
+            "date": "2018-09",
+            "indicateur": "ponctualite",
+            "global": 3.540796964
+        },
+        {
+            "date": "2018-10",
+            "indicateur": "globale",
+            "global": 5.310218978
+        },
+        {
+            "date": "2018-11",
+            "indicateur": "prix",
+            "global": 4.899505766
+        },
+        {
+            "date": "2018-12",
+            "indicateur": "ponctualite",
+            "global": 4.063020339
+        },
+        {
+            "date": "2018-12",
+            "indicateur": "prix",
+            "global": 4.755093644
+        },
+        {
+            "date": "2018-12",
+            "indicateur": "information-voyageurs",
+            "global": 4.555630271
+        },
+        {
+            "date": "2019-01",
+            "indicateur": "ponctualite",
+            "global": 3.919230795
+        },
+        {
+            "date": "2019-03",
+            "indicateur": "prix",
+            "global": 4.937142857
+        },
+        {
+            "date": "2019-04",
+            "indicateur": "prix",
+            "global": 4.894361582
+        },
+        {
+            "date": "2019-05",
+            "indicateur": "globale",
+            "global": 5.427003525
+        },
+        {
+            "date": "2019-05",
+            "indicateur": "ponctualite",
+            "global": 3.97163767
+        },
+        {
+            "date": "2019-06",
+            "indicateur": "environnement",
+            "global": 5.739846737
+        },
+        {
+            "date": "2019-07",
+            "indicateur": "innovation",
+            "global": 6.044868347
+        },
+        {
+            "date": "2019-08",
+            "indicateur": "globale",
+            "global": 5.275278072
+        },
+        {
+            "date": "2019-08",
+            "indicateur": "ponctualite",
+            "global": 3.977724842
+        },
+        {
+            "date": "2019-08",
+            "indicateur": "information-voyageurs",
+            "global": 4.735307591
+        },
+        {
+            "date": "2019-09",
+            "indicateur": "innovation",
+            "global": 5.728296921
+        },
+        {
+            "date": "2019-11",
+            "indicateur": "ponctualite",
+            "global": 4.099009897
+        },
+        {
+            "date": "2019-11",
+            "indicateur": "prix",
+            "global": 4.975026765
+        },
+        {
+            "date": "2019-11",
+            "indicateur": "environnement",
+            "global": 5.79061414
+        },
+        {
+            "date": "2019-12",
+            "indicateur": "information-voyageurs",
+            "global": 4.522972237
+        },
+        {
+            "date": "2020-01",
+            "indicateur": "innovation",
+            "global": 5.045036334
+        },
+        {
+            "date": "2020-02",
+            "indicateur": "globale",
+            "global": 4.9425176
+        },
+        {
+            "date": "2020-02",
+            "indicateur": "ponctualite",
+            "global": 3.8626958
+        },
+        {
+            "date": "2020-02",
+            "indicateur": "prix",
+            "global": 4.47062653
+        },
+        {
+            "date": "2020-03",
+            "indicateur": "environnement",
+            "global": 6.160281379
+        },
+        {
+            "date": "2020-04",
+            "indicateur": "ponctualite",
+            "global": 4.402763611
+        },
+        {
+            "date": "2020-05",
+            "indicateur": "prix",
+            "global": 4.902525581
+        },
+        {
+            "date": "2020-06",
+            "indicateur": "globale",
+            "global": 5.245552742
+        },
+        {
+            "date": "2020-06",
+            "indicateur": "prix",
+            "global": 5.141286925
+        },
+        {
+            "date": "2020-06",
+            "indicateur": "innovation",
+            "global": 5.811866264
+        },
+        {
+            "date": "2020-06",
+            "indicateur": "information-voyageurs",
+            "global": 5.038867827
+        },
+        {
+            "date": "2020-06",
+            "indicateur": "environnement",
+            "global": 6.110835316
+        },
+        {
+            "date": "2020-07",
+            "indicateur": "globale",
+            "global": 5.28118521
+        },
+        {
+            "date": "2020-07",
+            "indicateur": "innovation",
+            "global": 5.883409972
+        },
+        {
+            "date": "2020-08",
+            "indicateur": "innovation",
+            "global": 5.653056859
+        },
+        {
+            "date": "2020-09",
+            "indicateur": "environnement",
+            "global": 5.852405698
+        },
+        {
+            "date": "2020-10",
+            "indicateur": "ponctualite",
+            "global": 4.398404959
+        },
+        {
+            "date": "2020-11",
+            "indicateur": "innovation",
+            "global": 6.05386584962
+        },
+        {
+            "date": "2021-01",
+            "indicateur": "globale",
+            "global": 5.55375809425
+        },
+        {
+            "date": "2021-02",
+            "indicateur": "globale",
+            "global": 5.43607591018
+        },
+        {
+            "date": "2021-02",
+            "indicateur": "innovation",
+            "global": 5.86874690285
+        },
+        {
+            "date": "2021-02",
+            "indicateur": "information-voyageurs",
+            "global": 4.84428717253
+        },
+        {
+            "date": "2021-02",
+            "indicateur": "environnement",
+            "global": 6.21940332736
+        },
+        {
+            "date": "2021-04",
+            "indicateur": "ponctualite",
+            "global": 4.63754955149
+        },
+        {
+            "date": "2021-06",
+            "indicateur": "ponctualite",
+            "global": 4.50365844
+        },
+        {
+            "date": "2021-06",
+            "indicateur": "innovation",
+            "global": 6.071628439
+        },
+        {
+            "date": "2021-06",
+            "indicateur": "information-voyageurs",
+            "global": 5.00514165
+        },
+        {
+            "date": "2021-07",
+            "indicateur": "information-voyageurs",
+            "global": 5.006439391
+        },
+        {
+            "date": "2021-08",
+            "indicateur": "globale",
+            "global": 5.660200861
+        },
+        {
+            "date": "2021-08",
+            "indicateur": "prix",
+            "global": 5.113022173
+        },
+        {
+            "date": "2021-11",
+            "indicateur": "ponctualite",
+            "global": 4.088904481
+        },
+        {
+            "date": "2018-01",
+            "indicateur": "environnement",
+            "global": 5.797129242
+        },
+        {
+            "date": "2018-02",
+            "indicateur": "globale",
+            "global": 5.010506757
+        },
+        {
+            "date": "2018-02",
+            "indicateur": "information-voyageurs",
+            "global": 4.065725397
+        },
+        {
+            "date": "2018-03",
+            "indicateur": "environnement",
+            "global": 5.679507876
+        },
+        {
+            "date": "2018-04",
+            "indicateur": "globale",
+            "global": 4.442279416
+        },
+        {
+            "date": "2018-04",
+            "indicateur": "environnement",
+            "global": 5.598327144
+        },
+        {
+            "date": "2018-05",
+            "indicateur": "prix",
+            "global": 4.250229778
+        },
+        {
+            "date": "2018-05",
+            "indicateur": "innovation",
+            "global": 5.16771557
+        },
+        {
+            "date": "2018-06",
+            "indicateur": "environnement",
+            "global": 5.48939383
+        },
+        {
+            "date": "2018-08",
+            "indicateur": "prix",
+            "global": 4.483801811
+        },
+        {
+            "date": "2018-09",
+            "indicateur": "innovation",
+            "global": 5.474789916
+        },
+        {
+            "date": "2018-10",
+            "indicateur": "ponctualite",
+            "global": 3.906716418
+        },
+        {
+            "date": "2018-10",
+            "indicateur": "prix",
+            "global": 4.969289827
+        },
+        {
+            "date": "2018-10",
+            "indicateur": "environnement",
+            "global": 5.75249501
+        },
+        {
+            "date": "2018-11",
+            "indicateur": "environnement",
+            "global": 5.994845361
+        },
+        {
+            "date": "2018-12",
+            "indicateur": "environnement",
+            "global": 5.737392672
+        },
+        {
+            "date": "2019-01",
+            "indicateur": "globale",
+            "global": 5.525591806
+        },
+        {
+            "date": "2019-02",
+            "indicateur": "ponctualite",
+            "global": 3.98019802
+        },
+        {
+            "date": "2019-03",
+            "indicateur": "ponctualite",
+            "global": 4.028462998
+        },
+        {
+            "date": "2019-03",
+            "indicateur": "information-voyageurs",
+            "global": 4.553191489
+        },
+        {
+            "date": "2019-03",
+            "indicateur": "environnement",
+            "global": 5.883767535
+        },
+        {
+            "date": "2019-05",
+            "indicateur": "environnement",
+            "global": 5.835053455
+        },
+        {
+            "date": "2019-06",
+            "indicateur": "ponctualite",
+            "global": 3.923444529
+        },
+        {
+            "date": "2019-06",
+            "indicateur": "information-voyageurs",
+            "global": 4.525744578
+        },
+        {
+            "date": "2019-07",
+            "indicateur": "environnement",
+            "global": 6.182312948
+        },
+        {
+            "date": "2019-09",
+            "indicateur": "prix",
+            "global": 4.973438654
+        },
+        {
+            "date": "2020-03",
+            "indicateur": "ponctualite",
+            "global": 4.365841685
+        },
+        {
+            "date": "2020-03",
+            "indicateur": "prix",
+            "global": 5.243187018
+        },
+        {
+            "date": "2020-03",
+            "indicateur": "innovation",
+            "global": 5.933569808
+        },
+        {
+            "date": "2020-07",
+            "indicateur": "prix",
+            "global": 5.270149047
+        },
+        {
+            "date": "2020-07",
+            "indicateur": "environnement",
+            "global": 6.164464993
+        },
+        {
+            "date": "2020-08",
+            "indicateur": "environnement",
+            "global": 5.934352407
+        },
+        {
+            "date": "2020-11",
+            "indicateur": "prix",
+            "global": 5.51067736657
+        },
+        {
+            "date": "2020-12",
+            "indicateur": "prix",
+            "global": 5.12251681433
+        },
+        {
+            "date": "2020-12",
+            "indicateur": "innovation",
+            "global": 5.8291206144
+        },
+        {
+            "date": "2020-12",
+            "indicateur": "environnement",
+            "global": 6.0101588177
+        },
+        {
+            "date": "2021-01",
+            "indicateur": "environnement",
+            "global": 6.14974506793
+        },
+        {
+            "date": "2021-05",
+            "indicateur": "ponctualite",
+            "global": 4.272926976
+        },
+        {
+            "date": "2021-06",
+            "indicateur": "globale",
+            "global": 5.655938274
+        },
+        {
+            "date": "2021-07",
+            "indicateur": "ponctualite",
+            "global": 4.594631021
+        },
+        {
+            "date": "2021-08",
+            "indicateur": "information-voyageurs",
+            "global": 5.040233675
+        },
+        {
+            "date": "2021-09",
+            "indicateur": "globale",
+            "global": 5.650774145
+        },
+        {
+            "date": "2021-10",
+            "indicateur": "information-voyageurs",
+            "global": 4.9132959
+        },
+        {
+            "date": "2021-11",
+            "indicateur": "globale",
+            "global": 5.633152677
+        },
+        {
+            "date": "2021-11",
+            "indicateur": "information-voyageurs",
+            "global": 4.799632811
+        },
+        {
+            "date": "2021-12",
+            "indicateur": "globale",
+            "global": 5.547961588
+        },
+        {
+            "date": "2018-01",
+            "indicateur": "prix",
+            "global": 4.822798521
+        },
+        {
+            "date": "2018-02",
+            "indicateur": "innovation",
+            "global": 5.322018704
+        },
+        {
+            "date": "2018-03",
+            "indicateur": "globale",
+            "global": 5.10861167
+        },
+        {
+            "date": "2018-06",
+            "indicateur": "globale",
+            "global": 4.501491392
+        },
+        {
+            "date": "2018-07",
+            "indicateur": "ponctualite",
+            "global": 3.612576169
+        },
+        {
+            "date": "2018-07",
+            "indicateur": "information-voyageurs",
+            "global": 4.305923409
+        },
+        {
+            "date": "2018-11",
+            "indicateur": "ponctualite",
+            "global": 4.132701422
+        },
+        {
+            "date": "2018-11",
+            "indicateur": "innovation",
+            "global": 5.824137931
+        },
+        {
+            "date": "2018-12",
+            "indicateur": "globale",
+            "global": 5.419468371
+        },
+        {
+            "date": "2019-01",
+            "indicateur": "information-voyageurs",
+            "global": 4.615265925
+        },
+        {
+            "date": "2019-02",
+            "indicateur": "prix",
+            "global": 4.880239521
+        },
+        {
+            "date": "2019-03",
+            "indicateur": "globale",
+            "global": 5.449814126
+        },
+        {
+            "date": "2019-04",
+            "indicateur": "information-voyageurs",
+            "global": 4.766751779
+        },
+        {
+            "date": "2019-04",
+            "indicateur": "environnement",
+            "global": 5.869469631
+        },
+        {
+            "date": "2019-05",
+            "indicateur": "prix",
+            "global": 5.041226992
+        },
+        {
+            "date": "2019-06",
+            "indicateur": "globale",
+            "global": 5.425663854
+        },
+        {
+            "date": "2019-07",
+            "indicateur": "globale",
+            "global": 5.778380831
+        },
+        {
+            "date": "2019-07",
+            "indicateur": "ponctualite",
+            "global": 4.600385487
+        },
+        {
+            "date": "2019-07",
+            "indicateur": "information-voyageurs",
+            "global": 5.169214631
+        },
+        {
+            "date": "2019-08",
+            "indicateur": "innovation",
+            "global": 5.55075059
+        },
+        {
+            "date": "2019-09",
+            "indicateur": "globale",
+            "global": 5.553780876
+        },
+        {
+            "date": "2019-09",
+            "indicateur": "environnement",
+            "global": 5.839547349
+        },
+        {
+            "date": "2019-10",
+            "indicateur": "globale",
+            "global": 5.096242518
+        },
+        {
+            "date": "2019-10",
+            "indicateur": "ponctualite",
+            "global": 3.634219536
+        },
+        {
+            "date": "2019-10",
+            "indicateur": "environnement",
+            "global": 5.495245591
+        },
+        {
+            "date": "2019-12",
+            "indicateur": "environnement",
+            "global": 5.555305617
+        },
+        {
+            "date": "2020-01",
+            "indicateur": "ponctualite",
+            "global": 3.599626122
+        },
+        {
+            "date": "2020-01",
+            "indicateur": "prix",
+            "global": 4.343416444
+        },
+        {
+            "date": "2020-03",
+            "indicateur": "globale",
+            "global": 5.782795549
+        },
+        {
+            "date": "2020-04",
+            "indicateur": "globale",
+            "global": 5.494525617
+        },
+        {
+            "date": "2020-07",
+            "indicateur": "ponctualite",
+            "global": 4.525676484
+        },
+        {
+            "date": "2020-07",
+            "indicateur": "information-voyageurs",
+            "global": 5.070635329
+        },
+        {
+            "date": "2020-08",
+            "indicateur": "ponctualite",
+            "global": 4.176828729
+        },
+        {
+            "date": "2020-08",
+            "indicateur": "prix",
+            "global": 5.035946529
+        },
+        {
+            "date": "2020-09",
+            "indicateur": "ponctualite",
+            "global": 4.181011811
+        },
+        {
+            "date": "2020-09",
+            "indicateur": "innovation",
+            "global": 5.464157685
+        },
+        {
+            "date": "2020-10",
+            "indicateur": "innovation",
+            "global": 5.73448935
+        },
+        {
+            "date": "2020-10",
+            "indicateur": "information-voyageurs",
+            "global": 4.788120597
+        },
+        {
+            "date": "2020-10",
+            "indicateur": "environnement",
+            "global": 5.987184621
+        },
+        {
+            "date": "2020-11",
+            "indicateur": "ponctualite",
+            "global": 4.67356203839
+        },
+        {
+            "date": "2021-01",
+            "indicateur": "prix",
+            "global": 5.2077664813
+        },
+        {
+            "date": "2021-01",
+            "indicateur": "innovation",
+            "global": 6.1064311433
+        },
+        {
+            "date": "2021-02",
+            "indicateur": "ponctualite",
+            "global": 4.42602154206
+        },
+        {
+            "date": "2021-02",
+            "indicateur": "prix",
+            "global": 5.36715916518
+        },
+        {
+            "date": "2021-03",
+            "indicateur": "globale",
+            "global": 5.53474268378
+        },
+        {
+            "date": "2021-03",
+            "indicateur": "environnement",
+            "global": 6.00536695593
+        },
+        {
+            "date": "2021-04",
+            "indicateur": "innovation",
+            "global": 6.27279650971
+        },
+        {
+            "date": "2021-04",
+            "indicateur": "information-voyageurs",
+            "global": 5.18789437952
+        },
+        {
+            "date": "2021-04",
+            "indicateur": "environnement",
+            "global": 6.45865277554
+        },
+        {
+            "date": "2021-05",
+            "indicateur": "prix",
+            "global": 5.027068883
+        },
+        {
+            "date": "2021-05",
+            "indicateur": "innovation",
+            "global": 5.904545746
+        },
+        {
+            "date": "2021-05",
+            "indicateur": "information-voyageurs",
+            "global": 4.845565707
+        },
+        {
+            "date": "2021-05",
+            "indicateur": "environnement",
+            "global": 6.219143496
+        },
+        {
+            "date": "2021-07",
+            "indicateur": "globale",
+            "global": 5.555234486
+        },
+        {
+            "date": "2021-07",
+            "indicateur": "innovation",
+            "global": 5.823304531
+        },
+        {
+            "date": "2021-07",
+            "indicateur": "environnement",
+            "global": 6.115610887
+        },
+        {
+            "date": "2021-09",
+            "indicateur": "ponctualite",
+            "global": 4.371379904
+        },
+        {
+            "date": "2021-10",
+            "indicateur": "globale",
+            "global": 5.519797586
+        },
+        {
+            "date": "2021-10",
+            "indicateur": "environnement",
+            "global": 6.057852423
+        },
+        {
+            "date": "2021-11",
+            "indicateur": "environnement",
+            "global": 5.962935789
+        },
+        {
+            "date": "2018-01",
+            "indicateur": "ponctualite",
+            "global": 3.571169009
+        },
+        {
+            "date": "2018-01",
+            "indicateur": "information-voyageurs",
+            "global": 4.020125163
+        },
+        {
+            "date": "2018-02",
+            "indicateur": "ponctualite",
+            "global": 3.528359512
+        },
+        {
+            "date": "2018-03",
+            "indicateur": "ponctualite",
+            "global": 3.619194711
+        },
+        {
+            "date": "2018-04",
+            "indicateur": "ponctualite",
+            "global": 3.54630377
+        },
+        {
+            "date": "2018-04",
+            "indicateur": "prix",
+            "global": 4.453157851
+        },
+        {
+            "date": "2018-04",
+            "indicateur": "innovation",
+            "global": 5.234265278
+        },
+        {
+            "date": "2018-05",
+            "indicateur": "globale",
+            "global": 4.365675028
+        },
+        {
+            "date": "2018-06",
+            "indicateur": "ponctualite",
+            "global": 3.327167662
+        },
+        {
+            "date": "2018-06",
+            "indicateur": "prix",
+            "global": 4.253876854
+        },
+        {
+            "date": "2018-06",
+            "indicateur": "innovation",
+            "global": 4.977180257
+        },
+        {
+            "date": "2018-08",
+            "indicateur": "ponctualite",
+            "global": 3.318102482
+        },
+        {
+            "date": "2018-08",
+            "indicateur": "innovation",
+            "global": 5.376856205
+        },
+        {
+            "date": "2018-09",
+            "indicateur": "information-voyageurs",
+            "global": 4.311538462
+        },
+        {
+            "date": "2018-09",
+            "indicateur": "environnement",
+            "global": 5.55257732
+        },
+        {
+            "date": "2018-10",
+            "indicateur": "innovation",
+            "global": 5.652525253
+        },
+        {
+            "date": "2018-12",
+            "indicateur": "innovation",
+            "global": 5.638604782
+        },
+        {
+            "date": "2019-01",
+            "indicateur": "prix",
+            "global": 4.849534366
+        },
+        {
+            "date": "2019-01",
+            "indicateur": "innovation",
+            "global": 5.659936661
+        },
+        {
+            "date": "2019-02",
+            "indicateur": "globale",
+            "global": 5.51953125
+        },
+        {
+            "date": "2019-04",
+            "indicateur": "globale",
+            "global": 5.477379415
+        },
+        {
+            "date": "2019-04",
+            "indicateur": "innovation",
+            "global": 5.784474065
+        },
+        {
+            "date": "2019-05",
+            "indicateur": "innovation",
+            "global": 5.932106493
+        },
+        {
+            "date": "2019-05",
+            "indicateur": "information-voyageurs",
+            "global": 4.829716591
+        },
+        {
+            "date": "2019-06",
+            "indicateur": "innovation",
+            "global": 5.627506361
+        },
+        {
+            "date": "2019-08",
+            "indicateur": "environnement",
+            "global": 5.763457253
+        },
+        {
+            "date": "2019-09",
+            "indicateur": "ponctualite",
+            "global": 4.314768866
+        },
+        {
+            "date": "2019-10",
+            "indicateur": "prix",
+            "global": 4.587033348
+        },
+        {
+            "date": "2019-10",
+            "indicateur": "innovation",
+            "global": 5.338881491
+        },
+        {
+            "date": "2019-10",
+            "indicateur": "information-voyageurs",
+            "global": 4.18365433
+        },
+        {
+            "date": "2019-11",
+            "indicateur": "innovation",
+            "global": 5.718867239
+        },
+        {
+            "date": "2019-12",
+            "indicateur": "globale",
+            "global": 4.695301443
+        },
+        {
+            "date": "2019-12",
+            "indicateur": "innovation",
+            "global": 5.198546662
+        },
+        {
+            "date": "2020-01",
+            "indicateur": "environnement",
+            "global": 5.257918176
+        },
+        {
+            "date": "2020-02",
+            "indicateur": "innovation",
+            "global": 5.25062484
+        },
+        {
+            "date": "2020-03",
+            "indicateur": "information-voyageurs",
+            "global": 5.053636611
+        },
+        {
+            "date": "2020-04",
+            "indicateur": "prix",
+            "global": 4.940275724
+        },
+        {
+            "date": "2020-04",
+            "indicateur": "innovation",
+            "global": 5.834759976
+        },
+        {
+            "date": "2020-04",
+            "indicateur": "information-voyageurs",
+            "global": 4.808991851
+        },
+        {
+            "date": "2020-05",
+            "indicateur": "globale",
+            "global": 5.352817007
+        },
+        {
+            "date": "2020-05",
+            "indicateur": "ponctualite",
+            "global": 4.178691904
+        },
+        {
+            "date": "2020-05",
+            "indicateur": "information-voyageurs",
+            "global": 4.726558307
+        },
+        {
+            "date": "2020-06",
+            "indicateur": "ponctualite",
+            "global": 4.285806046
+        },
+        {
+            "date": "2020-09",
+            "indicateur": "globale",
+            "global": 5.024283966
+        },
+        {
+            "date": "2020-09",
+            "indicateur": "prix",
+            "global": 4.900198445
+        },
+        {
+            "date": "2020-10",
+            "indicateur": "globale",
+            "global": 5.130228974
+        },
+        {
+            "date": "2020-10",
+            "indicateur": "prix",
+            "global": 5.201988113
+        },
+        {
+            "date": "2020-11",
+            "indicateur": "information-voyageurs",
+            "global": 5.11207542048
+        },
+        {
+            "date": "2020-11",
+            "indicateur": "environnement",
+            "global": 6.35463828877
+        },
+        {
+            "date": "2020-12",
+            "indicateur": "globale",
+            "global": 5.32454908947
+        },
+        {
+            "date": "2020-12",
+            "indicateur": "information-voyageurs",
+            "global": 4.76863116821
+        },
+        {
+            "date": "2021-01",
+            "indicateur": "ponctualite",
+            "global": 4.48912646933
+        },
+        {
+            "date": "2021-01",
+            "indicateur": "information-voyageurs",
+            "global": 5.0399591093
+        },
+        {
+            "date": "2021-03",
+            "indicateur": "innovation",
+            "global": 5.98580993134
+        },
+        {
+            "date": "2021-03",
+            "indicateur": "information-voyageurs",
+            "global": 4.91912397373
+        },
+        {
+            "date": "2021-04",
+            "indicateur": "prix",
+            "global": 5.51031079605
+        },
+        {
+            "date": "2021-05",
+            "indicateur": "globale",
+            "global": 5.342808865
+        },
+        {
+            "date": "2021-06",
+            "indicateur": "environnement",
+            "global": 6.28056482
+        },
+        {
+            "date": "2021-09",
+            "indicateur": "information-voyageurs",
+            "global": 4.972455048
+        },
+        {
+            "date": "2021-09",
+            "indicateur": "environnement",
+            "global": 5.999638296
+        },
+        {
+            "date": "2021-10",
+            "indicateur": "ponctualite",
+            "global": 4.201911578
+        },
+        {
+            "date": "2021-10",
+            "indicateur": "prix",
+            "global": 5.125278683
+        },
+        {
+            "date": "2021-11",
+            "indicateur": "prix",
+            "global": 5.064736549
+        },
+        {
+            "date": "2021-12",
+            "indicateur": "ponctualite",
+            "global": 4.413753591
+        },
+        {
+            "date": "2021-12",
+            "indicateur": "prix",
+            "global": 5.224122638
+        },
+        {
+            "date": "2021-12",
+            "indicateur": "information-voyageurs",
+            "global": 5.047111835
+        },
+        {
+            "date": "2021-12",
+            "indicateur": "environnement",
+            "global": 6.076408578
+        }
+    ]
+}
