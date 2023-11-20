@@ -14,7 +14,7 @@ Les données proviennent majoritairement de [data.sncf.com](https://data.sncf.co
 - [@anaismm](https://github.com/leavillain)
 - [@leo29plns](https://github.com/leo29plns)
 
-## Quels détails
+## Quelques détails
 La carte provient d'un gif sur wikipedia. Chaque frame a été extraite au format PNG, puis a été assemblée dans un conteneur vidéo. Pourquoi ? En utilisant le format vidéo, on bénéficie de la compression basée sur des séquences d'images, et non pas une compression image par image. Grâce à cela, le fichier pèse 700ko en mp4, contre 30Mo pour les images en png.
 
 Le fichier js/loadSlides.js a été un défi technique: réussir à charger indépendamment les différents fichiers HTML, JS et CSS. Nous avons en effet fait le choix de compartimenter nos fichiers et d'automatiser leur imports. Tous les fichiers sont enregistrés dans le fichier data/slides.json et appelés en fonction de celui-ci. Les données sont d'abord chargées, puis ensuite chaque fichier js de slide est appelé (dans cet ordre précis). Le fichier HTML est bien évidemment incorporé en premier (dans le répertoire slides/). Toutes les données sont accessibles depuis la variable globale _globalData.
